@@ -19,20 +19,30 @@
     "test": "ava"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint-config-prettier": "^6.11.0",
     "tslib": "1.11.1"
   },
   "devDependencies": {
     "@softwareventures/prettier-config": "1.0.0",
     "@softwareventures/semantic-release-config": "1.0.0",
     "@softwareventures/tsconfig": "2.2.0",
+    "@types/eslint": "6.8.0",
     "ava": "3.8.1",
     "cz-conventional-changelog": "3.2.0",
+    "eslint": "6.8.0",
     "husky": "4.2.5",
     "precise-commits": "1.0.2",
     "prettier": "2.0.5",
     "semantic-release": "17.0.7",
     "ts-node": "8.10.1",
+    "tslint": "6.1.2",
     "typescript": "3.8.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "@softwareventures"
   },
   "prettier": "@softwareventures/prettier-config",
   "config": {
