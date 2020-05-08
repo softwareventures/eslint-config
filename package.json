@@ -16,7 +16,7 @@
   "scripts": {
     "prepare": "tsc",
     "semantic-release": "semantic-release",
-    "test": "tslint --project . && ava"
+    "test": "ava"
   },
   "dependencies": {
     "tslib": "1.11.1"
@@ -25,7 +25,6 @@
     "@softwareventures/prettier-config": "1.0.0",
     "@softwareventures/semantic-release-config": "1.0.0",
     "@softwareventures/tsconfig": "2.2.0",
-    "@softwareventures/tslint-rules": "0.8.1",
     "ava": "3.8.1",
     "cz-conventional-changelog": "3.2.0",
     "husky": "4.2.5",
@@ -33,7 +32,6 @@
     "prettier": "2.0.5",
     "semantic-release": "17.0.7",
     "ts-node": "8.10.1",
-    "tslint": "6.1.2",
     "typescript": "3.8.3"
   },
   "prettier": "@softwareventures/prettier-config",
