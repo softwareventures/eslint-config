@@ -32,23 +32,30 @@ const config: Linter.Config = {
                     {
                         types: {
                             Object: {
-                                message: "Avoid using the `Object` type. Did you mean `object`?"
+                                message:
+                                    "Do not use the `Object` type. Did you mean `object` or `Record<string, any>`?",
+                                fixWith: "object"
                             },
                             Function: {
                                 message:
-                                    "Avoid using the `Function` type. Prefer a specific function type, like `() => void`."
+                                    "Do not use the `Function` type. Prefer a specific function type, like `() => void`.",
+                                fixWith: "() => void"
                             },
                             Boolean: {
-                                message: "Avoid using the `Boolean` type. Did you mean `boolean`?"
+                                message: "Use boolean instead",
+                                fixWith: "boolean"
                             },
                             Number: {
-                                message: "Avoid using the `Number` type. Did you mean `number`?"
+                                message: "Use number instead",
+                                fixWith: "number"
                             },
                             String: {
-                                message: "Avoid using the `String` type. Did you mean `string`?"
+                                message: "Use string instead",
+                                fixWith: "string"
                             },
                             Symbol: {
-                                message: "Avoid using the `Symbol` type. Did you mean `symbol`?"
+                                message: "Use symbol instead",
+                                fixWith: "symbol"
                             }
                         }
                     }
