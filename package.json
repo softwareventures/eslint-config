@@ -16,7 +16,7 @@
   "scripts": {
     "prepare": "tsc",
     "semantic-release": "semantic-release",
-    "test": "eslint . --ext .ts,.tsx && ava"
+    "test": "prettier --check . && eslint . --ext .ts,.tsx && ava"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.31.0",
