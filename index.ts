@@ -5,7 +5,7 @@ const config: Linter.Config = {
         node: true
     },
     extends: ["eslint:recommended", "prettier"],
-    plugins: ["@typescript-eslint"],
+    plugins: ["@typescript-eslint", "import", "jsdoc", "prefer-arrow", "@typescript-eslint/tslint"],
     overrides: [
         {
             files: ["*.ts", "*.tsx"],
