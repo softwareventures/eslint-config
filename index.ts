@@ -12,6 +12,7 @@ const config: Linter.Config = {
             extends: [
                 "plugin:@typescript-eslint/eslint-recommended",
                 "plugin:@typescript-eslint/recommended",
+                "plugin:@typescript-eslint/recommended-requiring-type-checking",
                 "prettier/@typescript-eslint"
             ],
             parser: "@typescript-eslint/parser",
@@ -26,7 +27,6 @@ const config: Linter.Config = {
                         default: "array-simple"
                     }
                 ],
-                "@typescript-eslint/await-thenable": "error",
                 "@typescript-eslint/ban-types": [
                     "error",
                     {
@@ -87,13 +87,12 @@ const config: Linter.Config = {
                 "@typescript-eslint/no-explicit-any": "off",
                 "@typescript-eslint/no-extraneous-class": "error",
                 "@typescript-eslint/no-floating-promises": "error",
-                "@typescript-eslint/no-for-in-array": "error",
                 "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
-                "@typescript-eslint/no-unnecessary-type-assertion": "error",
                 "@typescript-eslint/no-use-before-define": "off",
                 "@typescript-eslint/prefer-for-of": "off",
                 "@typescript-eslint/prefer-function-type": "error",
                 "@typescript-eslint/promise-function-async": "error",
+                "@typescript-eslint/require-await": "off",
                 "@typescript-eslint/triple-slash-reference": [
                     "error",
                     {
@@ -102,7 +101,6 @@ const config: Linter.Config = {
                         lib: "always"
                     }
                 ],
-                "@typescript-eslint/unbound-method": "error",
                 "@typescript-eslint/unified-signatures": "error",
                 "arrow-body-style": "error",
                 "arrow-parens": ["off", "always"],
