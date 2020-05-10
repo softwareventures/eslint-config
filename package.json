@@ -21,8 +21,12 @@
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsdoc": "^24.0.6",
+    "eslint-plugin-prefer-arrow": "^1.2.1",
     "tslib": "1.11.1"
   },
   "devDependencies": {
