@@ -272,12 +272,12 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@softwareventures/prettier-config@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/prettier-config/-/prettier-config-1.0.0.tgz#fc41515031ff3b2f27a8dd91cb3b3a78ac47068b"
-  integrity sha512-IrfnhFGC9U8U7nJHrn+Ic9pUbDG+xnDL48N60ucClv2kr0lRKHepFNlUu2aKBHD6k7cVKADdqslJxhsICE6p9Q==
+"@softwareventures/prettier-config@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@softwareventures/prettier-config/-/prettier-config-1.0.2.tgz#309a1b3509c7779be8ea78697df9fcf2cc2ca423"
+  integrity sha512-g+BkqIbH3hAo5IGwgONjVh+sZUYR9ia+KXIs0/iGjESr406ijMm7sVxGcNhJMSIZeiBvaDNx5yarnnbt07C72g==
   dependencies:
-    tslib "1.11.1"
+    tslib "1.11.2"
 
 "@softwareventures/semantic-release-config@1.0.0":
   version "1.0.0"

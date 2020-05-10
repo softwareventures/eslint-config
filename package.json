@@ -30,7 +30,7 @@
     "tslib": "1.11.2"
   },
   "devDependencies": {
-    "@softwareventures/prettier-config": "1.0.0",
+    "@softwareventures/prettier-config": "1.0.2",
     "@softwareventures/semantic-release-config": "1.0.0",
     "@softwareventures/tsconfig": "2.2.0",
     "@types/eslint": "6.8.0",
