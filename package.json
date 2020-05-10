@@ -34,7 +34,7 @@
     "@softwareventures/semantic-release-config": "1.0.1",
     "@softwareventures/tsconfig": "2.2.0",
     "@types/eslint": "6.8.0",
-    "ava": "3.8.1",
+    "ava": "3.8.2",
     "cz-conventional-changelog": "3.2.0",
     "eslint": "6.8.0",
     "husky": "4.2.5",
