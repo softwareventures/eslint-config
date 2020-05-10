@@ -60,6 +60,7 @@ const config: Linter.Config = {
                         }
                     }
                 ],
+                "@typescript-eslint/ban-ts-comment": "error",
                 "@typescript-eslint/explicit-function-return-type": "error",
                 "@typescript-eslint/explicit-member-accessibility": [
                     "error",
