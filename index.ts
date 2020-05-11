@@ -110,7 +110,7 @@ const config: Linter.Config = {
                 "complexity": "off",
                 "curly": "error",
                 "dot-notation": "error",
-                "eqeqeq": ["error", "smart"],
+                "eqeqeq": ["error", "always", {null: "never"}],
                 "guard-for-in": "error",
                 "id-blacklist": "error",
                 "id-match": "error",
