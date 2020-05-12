@@ -102,58 +102,6 @@ const config: Linter.Config = {
                     }
                 ],
                 "@typescript-eslint/unified-signatures": "error",
-                "arrow-body-style": "error",
-                "arrow-parens": ["off", "always"],
-                "brace-style": ["error", "1tbs"],
-                "class-methods-use-this": "error",
-                "comma-dangle": "error",
-                "complexity": "off",
-                "curly": "error",
-                "dot-notation": "error",
-                "eqeqeq": ["error", "always", {null: "never"}],
-                "guard-for-in": "error",
-                "id-blacklist": "error",
-                "id-match": "error",
-                "import/no-extraneous-dependencies": [
-                    "error",
-                    {
-                        devDependencies: ["**/*.test.{js,jsx,ts,tsx}", "**/test.{js,jsx,ts,tsx}"],
-                        optionalDependencies: false
-                    }
-                ],
-                "import/order": "error",
-                "jsdoc/check-alignment": "error",
-                "jsdoc/check-indentation": "error",
-                "jsdoc/newline-after-description": "error",
-                "jsdoc/no-types": "error",
-                "max-classes-per-file": "off",
-                "new-parens": "error",
-                "no-caller": "error",
-                "no-duplicate-imports": "error",
-                "no-empty": "off",
-                "no-eval": "error",
-                "no-extra-bind": "error",
-                "no-irregular-whitespace": "error",
-                "no-new-func": "error",
-                "no-new-wrappers": "error",
-                "no-proto": "error",
-                "no-return-await": "error",
-                "no-script-url": "error",
-                "no-self-compare": "error",
-                "no-throw-literal": "error",
-                "no-undef-init": "error",
-                "no-underscore-dangle": "error",
-                "no-unused-expressions": "error",
-                "no-useless-constructor": "error",
-                "no-void": "error",
-                "object-shorthand": "error",
-                "one-var": ["error", "never"],
-                "prefer-arrow/prefer-arrow-functions": [
-                    "error",
-                    {allowStandaloneDeclarations: true}
-                ],
-                "prefer-object-spread": "error",
-                "radix": "error",
                 "@typescript-eslint/tslint/config": [
                     "error",
                     {
@@ -167,7 +115,58 @@ const config: Linter.Config = {
                 ]
             }
         }
-    ]
+    ],
+    rules: {
+        "arrow-body-style": "error",
+        "arrow-parens": ["off", "always"],
+        "brace-style": ["error", "1tbs"],
+        "class-methods-use-this": "error",
+        "comma-dangle": "error",
+        "complexity": "off",
+        "curly": "error",
+        "dot-notation": "error",
+        "eqeqeq": ["error", "always", {null: "never"}],
+        "guard-for-in": "error",
+        "id-blacklist": "error",
+        "id-match": "error",
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                devDependencies: ["**/*.test.{js,jsx,ts,tsx}", "**/test.{js,jsx,ts,tsx}"],
+                optionalDependencies: false
+            }
+        ],
+        "import/order": "error",
+        "jsdoc/check-alignment": "error",
+        "jsdoc/check-indentation": "error",
+        "jsdoc/newline-after-description": "error",
+        "jsdoc/no-types": "error",
+        "max-classes-per-file": "off",
+        "new-parens": "error",
+        "no-caller": "error",
+        "no-duplicate-imports": "error",
+        "no-empty": "off",
+        "no-eval": "error",
+        "no-extra-bind": "error",
+        "no-irregular-whitespace": "error",
+        "no-new-func": "error",
+        "no-new-wrappers": "error",
+        "no-proto": "error",
+        "no-return-await": "error",
+        "no-script-url": "error",
+        "no-self-compare": "error",
+        "no-throw-literal": "error",
+        "no-undef-init": "error",
+        "no-underscore-dangle": "error",
+        "no-unused-expressions": "error",
+        "no-useless-constructor": "error",
+        "no-void": "error",
+        "object-shorthand": "error",
+        "one-var": ["error", "never"],
+        "prefer-arrow/prefer-arrow-functions": ["error", {allowStandaloneDeclarations: true}],
+        "prefer-object-spread": "error",
+        "radix": "error"
+    }
 };
 
 export = config;
