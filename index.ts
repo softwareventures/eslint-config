@@ -114,7 +114,13 @@ const config: Linter.Config = {
                 "guard-for-in": "error",
                 "id-blacklist": "error",
                 "id-match": "error",
-                "import/no-extraneous-dependencies": "error",
+                "import/no-extraneous-dependencies": [
+                    "error",
+                    {
+                        devDependencies: ["**/*.test.{js,jsx,ts,tsx}", "**/test.{js,jsx,ts,tsx}"],
+                        optionalDependencies: false
+                    }
+                ],
                 "import/order": "error",
                 "jsdoc/check-alignment": "error",
                 "jsdoc/check-indentation": "error",
