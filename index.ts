@@ -120,7 +120,6 @@ const config: Linter.Config = {
         "arrow-body-style": "error",
         "arrow-parens": ["off", "always"],
         "brace-style": ["error", "1tbs"],
-        "class-methods-use-this": "error",
         "comma-dangle": "error",
         "complexity": "off",
         "curly": "error",
