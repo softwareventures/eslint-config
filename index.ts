@@ -142,7 +142,10 @@ const config: Linter.Config = {
                 "no-void": "error",
                 "object-shorthand": "error",
                 "one-var": ["error", "never"],
-                "prefer-arrow/prefer-arrow-functions": "error",
+                "prefer-arrow/prefer-arrow-functions": [
+                    "error",
+                    {allowStandaloneDeclarations: true}
+                ],
                 "prefer-object-spread": "error",
                 "radix": "error",
                 "@typescript-eslint/tslint/config": [
