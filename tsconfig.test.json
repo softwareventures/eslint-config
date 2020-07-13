@@ -1,6 +1,7 @@
 {
-  "extends": "@softwareventures/tsconfig",
+  "extends": ".",
   "compilerOptions": {
     "noEmit": true
-  }
+  },
+  "exclude": []
 }
