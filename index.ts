@@ -114,6 +114,13 @@ const config: Linter.Config = {
                     }
                 ]
             }
+        },
+        {
+            files: ["test.ts", "test.tsx", "*.test.ts", "*.test.tsx"],
+            parserOptions: {
+                project: "tsconfig.test.json",
+                sourceType: "module"
+            }
         }
     ],
     rules: {
