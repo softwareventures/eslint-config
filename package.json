@@ -15,7 +15,8 @@
   "scripts": {
     "prepare": "tsc",
     "semantic-release": "semantic-release",
-    "test": "prettier --check . && eslint . && ava",
+    "test": "ava",
+    "lint": "prettier --check . && eslint .",
     "fix": "eslint . --fix && prettier --write ."
   },
   "dependencies": {
