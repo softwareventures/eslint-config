@@ -93,6 +93,7 @@ const config: Linter.Config = {
                 "@typescript-eslint/no-use-before-define": "off",
                 "@typescript-eslint/prefer-for-of": "off",
                 "@typescript-eslint/prefer-function-type": "error",
+                "@typescript-eslint/prefer-regexp-exec": "off",
                 "@typescript-eslint/promise-function-async": "error",
                 "@typescript-eslint/require-await": "off",
                 "@typescript-eslint/triple-slash-reference": [
