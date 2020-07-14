@@ -88,6 +88,7 @@ const config: Linter.Config = {
                 "@typescript-eslint/no-extraneous-class": "error",
                 "@typescript-eslint/no-floating-promises": "error",
                 "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
+                "@typescript-eslint/no-unsafe-member-access": "off",
                 "@typescript-eslint/no-use-before-define": "off",
                 "@typescript-eslint/prefer-for-of": "off",
                 "@typescript-eslint/prefer-function-type": "error",
