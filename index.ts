@@ -62,7 +62,13 @@ const config: Linter.Config = {
                 ],
                 "@typescript-eslint/ban-ts-comment": "error",
                 "@typescript-eslint/class-literal-property-style": "error",
-                "@typescript-eslint/explicit-function-return-type": "error",
+                "@typescript-eslint/explicit-function-return-type": [
+                    "error",
+                    {
+                        allowExpressions: true,
+                        allowTypedFunctionExpressions: true
+                    }
+                ],
                 "@typescript-eslint/explicit-member-accessibility": [
                     "error",
                     {
