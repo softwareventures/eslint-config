@@ -2,10 +2,15 @@ import {Linter} from "eslint";
 
 const config: Linter.Config = {
     env: {
+        es6: true,
         node: true
     },
     extends: ["eslint:recommended", "prettier"],
     plugins: ["@typescript-eslint", "import", "jsdoc", "prefer-arrow", "@typescript-eslint/tslint"],
+    parserOptions: {
+        ecmaVersion: 6,
+        sourceType: "module"
+    },
     overrides: [
         {
             files: ["*.ts", "*.tsx"],
@@ -17,8 +22,7 @@ const config: Linter.Config = {
             ],
             parser: "@typescript-eslint/parser",
             parserOptions: {
-                project: "tsconfig.json",
-                sourceType: "module"
+                project: "tsconfig.json"
             },
             rules: {
                 "@typescript-eslint/array-type": [
@@ -128,8 +132,7 @@ const config: Linter.Config = {
         {
             files: ["test.ts", "test.tsx", "*.test.ts", "*.test.tsx"],
             parserOptions: {
-                project: "tsconfig.test.json",
-                sourceType: "module"
+                project: "tsconfig.test.json"
             }
         }
     ],
