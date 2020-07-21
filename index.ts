@@ -168,7 +168,11 @@ const config: Linter.Config = {
         "import/no-extraneous-dependencies": [
             "error",
             {
-                devDependencies: ["**/*.test.{js,jsx,ts,tsx}", "**/test.{js,jsx,ts,tsx}"],
+                devDependencies: [
+                    "webpack.config.{js,jsx,ts,tsx}",
+                    "**/*.test.{js,jsx,ts,tsx}",
+                    "**/test.{js,jsx,ts,tsx}"
+                ],
                 optionalDependencies: false
             }
         ],
