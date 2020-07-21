@@ -117,6 +117,7 @@ const config: Linter.Config = {
                 "@typescript-eslint/no-unsafe-assignment": "off",
                 "@typescript-eslint/no-unsafe-member-access": "off",
                 "@typescript-eslint/no-unsafe-return": "off",
+                "@typescript-eslint/no-unused-vars": "off",
                 "@typescript-eslint/no-use-before-define": "off",
                 "@typescript-eslint/prefer-for-of": "off",
                 "@typescript-eslint/prefer-function-type": "error",
