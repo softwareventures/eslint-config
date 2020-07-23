@@ -110,6 +110,7 @@ const config: Linter.Config = {
                     }
                 ],
                 "@typescript-eslint/member-ordering": "error",
+                "@typescript-eslint/no-empty-function": "off",
                 "@typescript-eslint/no-explicit-any": "off",
                 "@typescript-eslint/no-extraneous-class": "error",
                 "@typescript-eslint/no-floating-promises": "error",
@@ -186,6 +187,7 @@ const config: Linter.Config = {
         "no-caller": "error",
         "no-duplicate-imports": "error",
         "no-empty": "off",
+        "no-empty-function": "off",
         "no-eval": "error",
         "no-extra-bind": "error",
         "no-irregular-whitespace": "error",
