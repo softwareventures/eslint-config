@@ -124,6 +124,15 @@ const config: Linter.Config = {
                 "@typescript-eslint/prefer-function-type": "error",
                 "@typescript-eslint/prefer-regexp-exec": "off",
                 "@typescript-eslint/promise-function-async": "error",
+                "@typescript-eslint/restrict-template-expressions": [
+                    "error",
+                    {
+                        allowNumber: true,
+                        allowBoolean: true,
+                        allowAny: false,
+                        allowNullish: false
+                    }
+                ],
                 "@typescript-eslint/require-await": "off",
                 "@typescript-eslint/triple-slash-reference": [
                     "error",
