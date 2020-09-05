@@ -188,7 +188,7 @@ const config: Linter.Config = {
         ],
         "import/order": "error",
         "jsdoc/check-alignment": "error",
-        "jsdoc/check-indentation": "error",
+        "jsdoc/check-indentation": "off",
         "jsdoc/newline-after-description": "error",
         "jsdoc/no-types": "error",
         "max-classes-per-file": "off",
