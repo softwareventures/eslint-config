@@ -33,7 +33,7 @@
   "devDependencies": {
     "@softwareventures/prettier-config": "1.0.2",
     "@softwareventures/semantic-release-config": "1.1.1",
-    "@softwareventures/tsconfig": "2.2.0",
+    "@softwareventures/tsconfig": "2.3.1",
     "@types/eslint": "7.2.2",
     "ava": "3.12.1",
     "cz-conventional-changelog": "3.3.0",
