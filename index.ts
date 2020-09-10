@@ -8,7 +8,7 @@ const config: Linter.Config = {
     extends: ["eslint:recommended", "prettier"],
     plugins: ["@typescript-eslint", "import", "jsdoc", "prefer-arrow", "@typescript-eslint/tslint"],
     parserOptions: {
-        ecmaVersion: 6,
+        ecmaVersion: 2018,
         sourceType: "module"
     },
     overrides: [
