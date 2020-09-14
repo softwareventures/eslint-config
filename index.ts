@@ -211,7 +211,6 @@ const config: Linter.Config = {
         "no-underscore-dangle": "error",
         "no-unused-expressions": "error",
         "no-useless-constructor": "error",
-        "no-void": "error",
         "object-shorthand": "error",
         "one-var": ["error", "never"],
         "prefer-arrow/prefer-arrow-functions": ["error", {allowStandaloneDeclarations: true}],
