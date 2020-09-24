@@ -158,7 +158,14 @@ const config: Linter.Config = {
             }
         },
         {
-            files: ["test.ts", "test.tsx", "*.test.ts", "*.test.tsx"],
+            files: [
+                "test.ts",
+                "test.tsx",
+                "*.test.ts",
+                "*.test.tsx",
+                "*.test-d.ts",
+                "*.test-d.tsx"
+            ],
             parserOptions: {
                 project: "tsconfig.test.json"
             }
