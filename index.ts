@@ -189,6 +189,7 @@ const config: Linter.Config = {
                 devDependencies: [
                     "webpack.config.{js,jsx,ts,tsx}",
                     "**/*.test.{js,jsx,ts,tsx}",
+                    "**/*.test-d.{ts,tsx}",
                     "**/test.{js,jsx,ts,tsx}"
                 ],
                 optionalDependencies: false
