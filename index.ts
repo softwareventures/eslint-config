@@ -187,7 +187,7 @@ const config: Linter.Config = {
             "error",
             {
                 devDependencies: [
-                    "webpack.config.{js,jsx,ts,tsx}",
+                    "**/*.config.{js,jsx,ts,tsx}",
                     "**/*.test.{js,jsx,ts,tsx}",
                     "**/*.test-d.{ts,tsx}",
                     "**/test.{js,jsx,ts,tsx}"
