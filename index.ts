@@ -169,6 +169,16 @@ const config: Linter.Config = {
             parserOptions: {
                 project: "tsconfig.test.json"
             }
+        },
+        {
+            files: [
+                "test.{js,jsx,ts,tsx}",
+                "*.test.{js,jsx,ts,tsx}",
+                "*.config.{js,jsx,ts,tsx}"
+            ],
+            rules: {
+                "no-restricted-imports": "off"
+            }
         }
     ],
     rules: {
@@ -212,6 +222,12 @@ const config: Linter.Config = {
         "no-new-func": "error",
         "no-new-wrappers": "error",
         "no-proto": "error",
+        "no-restricted-imports": [
+            "error",
+            {
+                "patterns": ["**/*.config", "**/*.test", "**/test"]
+            }
+        ],
         "no-return-await": "error",
         "no-script-url": "error",
         "no-self-compare": "error",
