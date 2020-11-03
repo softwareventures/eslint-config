@@ -171,11 +171,7 @@ const config: Linter.Config = {
             }
         },
         {
-            files: [
-                "test.{js,jsx,ts,tsx}",
-                "*.test.{js,jsx,ts,tsx}",
-                "*.config.{js,jsx,ts,tsx}"
-            ],
+            files: ["test.{js,jsx,ts,tsx}", "*.test.{js,jsx,ts,tsx}", "*.config.{js,jsx,ts,tsx}"],
             rules: {
                 "no-restricted-imports": "off"
             }
@@ -225,7 +221,7 @@ const config: Linter.Config = {
         "no-restricted-imports": [
             "error",
             {
-                "patterns": ["**/*.config", "**/*.test", "**/test"]
+                patterns: ["**/*.config", "**/*.test", "**/test"]
             }
         ],
         "no-return-await": "error",
