@@ -148,7 +148,6 @@ const config: Linter.Config = {
                     "error",
                     {
                         rules: {
-                            "no-inferred-empty-object-type": true,
                             "no-mergeable-namespace": true,
                             "no-unnecessary-callback-wrapper": true,
                             "prefer-while": true
