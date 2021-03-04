@@ -149,7 +149,6 @@ const config: Linter.Config = {
                     {
                         rules: {
                             "no-mergeable-namespace": true,
-                            "no-unnecessary-callback-wrapper": true,
                             "prefer-while": true
                         }
                     }
