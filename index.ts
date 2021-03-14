@@ -35,7 +35,7 @@ const config: Linter.Config = {
                     "error",
                     {
                         types: {
-                            "Object": {
+                            Object: {
                                 message: [
                                     'Do not use the `Object` type, it means "any non-nullish value".',
                                     '- If you want a type meaning "any object", you probably want `Record<string, unknown>` or `object` instead.',
@@ -43,15 +43,7 @@ const config: Linter.Config = {
                                 ].join("\n"),
                                 fixWith: "object"
                             },
-                            "{}": {
-                                message: [
-                                    'Do not use `{}`, it means "any non-nullish value".',
-                                    '- If you want a type meaning "any object", you probably want `Record<string, unknown>` or `object` instead.',
-                                    '- If you want a type meaning "any value", you probably want `unknown` or `any` instead.'
-                                ].join("\n"),
-                                fixWith: "object"
-                            },
-                            "Function": {
+                            Function: {
                                 message: [
                                     "The `Function` type accepts any function-like value.",
                                     "It provides no type safety when calling the function, which can be a common source of bugs.",
@@ -60,19 +52,19 @@ const config: Linter.Config = {
                                 ].join("\n"),
                                 fixWith: "() => void"
                             },
-                            "Boolean": {
+                            Boolean: {
                                 message: "Use boolean instead",
                                 fixWith: "boolean"
                             },
-                            "Number": {
+                            Number: {
                                 message: "Use number instead",
                                 fixWith: "number"
                             },
-                            "String": {
+                            String: {
                                 message: "Use string instead",
                                 fixWith: "string"
                             },
-                            "Symbol": {
+                            Symbol: {
                                 message: "Use symbol instead",
                                 fixWith: "symbol"
                             }
