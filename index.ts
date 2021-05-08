@@ -24,6 +24,7 @@ const config: Linter.Config = {
                 project: "tsconfig.json"
             },
             rules: {
+                "dot-notation": "off",
                 "@typescript-eslint/array-type": [
                     "error",
                     {
@@ -73,6 +74,7 @@ const config: Linter.Config = {
                 ],
                 "@typescript-eslint/ban-ts-comment": "error",
                 "@typescript-eslint/class-literal-property-style": "error",
+                "@typescript-eslint/dot-notation": "error",
                 "@typescript-eslint/explicit-function-return-type": [
                     "error",
                     {
