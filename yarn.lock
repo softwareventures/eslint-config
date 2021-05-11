@@ -72,10 +72,14 @@
   dependencies:
     arrify "^1.0.1"
 
-"@es-joy/jsdoccomment@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@es-joy/jsdoccomment/-/jsdoccomment-0.1.1.tgz#23c54b8803cd10a2455385a5b2d7c27d6b55c36d"
-  integrity sha512-6lIx5Pjc50D7VJU9lfRZ1twfIrIwQk+aeT9Ink2C07IUu/y9pxkIpDqmhY/VN3jAW42dA5z6ioOdyhOZZU1isw==
+"@es-joy/jsdoccomment@^0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@es-joy/jsdoccomment/-/jsdoccomment-0.4.4.tgz#8a25154156edbfc29e310943ebb17ee29122c9df"
+  integrity sha512-ua4qDt9dQb4qt5OI38eCZcQZYE5Bq3P0GzgvDARdT8Lt0mAUpxKTPy8JGGqEvF77tG1irKDZ3WreeezEa3P43w==
+  dependencies:
+    comment-parser "^1.1.5"
+    esquery "^1.4.0"
+    jsdoctypeparser "^9.0.0"
 
 "@eslint/eslintrc@^0.4.1":
   version "0.4.1"
@@ -1454,7 +1458,7 @@ commander@^2.12.1:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-comment-parser@1.1.5:
+comment-parser@1.1.5, comment-parser@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/comment-parser/-/comment-parser-1.1.5.tgz#453627ef8f67dbcec44e79a9bd5baa37f0bce9b2"
   integrity sha512-RePCE4leIhBlmrqiYTvaqEeGYg7qpSl4etaIabKtdOQVi+mSTIBBklGUwIr79GXYnl3LpMwmDw4KeR2stNc6FA==
@@ -2072,14 +2076,15 @@ eslint-plugin-import@^2.20.2:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-"eslint-plugin-jsdoc@^25.0.1 || ^26.0.0 || ^27.0.0 || ^28.0.0 || ^29.0.0 || ^30.0.0 || ^31.0.0 || ^33.0.0":
-  version "33.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-33.0.0.tgz#0aefe92706176b8c02c5a8ae721bf3b4705936a5"
-  integrity sha512-bkopnnuDdT04abKWPfDdD6XcAp2yX6UDpDViyvIdYmxbZYbpHXCRzQzLqCTo+SzWSTS0KFWz/V3shmmMr+x4EA==
+"eslint-plugin-jsdoc@^25.0.1 || ^26.0.0 || ^27.0.0 || ^28.0.0 || ^29.0.0 || ^30.0.0 || ^31.0.0 || ^33.0.0 || ^34.0.0":
+  version "34.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-34.0.0.tgz#aa62e7550fe6761a373e640974e2d685965168b7"
+  integrity sha512-xosfhLEQgy8fFzwI/qcDn/YdCkOMPcYUrZsAICz3JBoTp+kjmbTmSJjqz7xPvErLcBETEy94Mrjn64iHzdAqkw==
   dependencies:
-    "@es-joy/jsdoccomment" "^0.1.1"
+    "@es-joy/jsdoccomment" "^0.4.4"
     comment-parser "1.1.5"
     debug "^4.3.1"
+    esquery "^1.4.0"
     jsdoctypeparser "^9.0.0"
     lodash "^4.17.21"
     regextras "^0.7.1"
