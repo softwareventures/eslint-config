@@ -177,7 +177,7 @@ const config: Linter.Config = {
         "no-empty-function": "off",
         "no-eval": "error",
         "no-extra-bind": "error",
-        "no-irregular-whitespace": "error",
+        "no-irregular-whitespace": ["error", {skipStrings: false}],
         "no-new-func": "error",
         "no-new-wrappers": "error",
         "no-proto": "error",
