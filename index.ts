@@ -38,41 +38,34 @@ const config: Linter.Config = {
                     "error",
                     {
                         types: {
-                            Object: {
+                            "Object": {
                                 message: [
-                                    'Do not use the `Object` type, it means "any non-nullish value".',
-                                    '- If you want a type meaning "any object", you probably want `Record<string, unknown>` or `object` instead.',
-                                    '- If you want a type meaning "any value", you probably want `unknown` or `any` instead.'
+                                    'Do not use `Object`, it means "any non-nullish value".',
+                                    '- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
+                                    '- If you want a type meaning "any value", you probably want `unknown` instead.'
                                 ].join("\n"),
-                                fixWith: "object"
+                                fixWith: "Record<string, unknown>"
                             },
-                            Function: {
+                            "{}": {
+                                message: [
+                                    'Do not use `{}`, it means "any non-nullish value".',
+                                    '- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
+                                    '- If you want a type meaning "any value", you probably want `unknown` instead.',
+                                    '- If you want a type meaning "empty object", you probably want `Record<string, never>` instead.'
+                                ].join("\n"),
+                                fixWith: "Record<string, never>"
+                            },
+                            "Function": {
                                 message: [
                                     "The `Function` type accepts any function-like value.",
                                     "It provides no type safety when calling the function, which can be a common source of bugs.",
-                                    "It also accepts things like class declarations, which will throw at runtime as they may not be called with `new`.",
+                                    "It also accepts things like class declarations, which may throw at runtime as they may not be called with `new`.",
                                     "If you are expecting a function to accept certain arguments, you should explicitly define the function shape."
                                 ].join("\n"),
                                 fixWith: "() => void"
-                            },
-                            Boolean: {
-                                message: "Use boolean instead",
-                                fixWith: "boolean"
-                            },
-                            Number: {
-                                message: "Use number instead",
-                                fixWith: "number"
-                            },
-                            String: {
-                                message: "Use string instead",
-                                fixWith: "string"
-                            },
-                            Symbol: {
-                                message: "Use symbol instead",
-                                fixWith: "symbol"
                             }
                         },
-                        extendDefaults: false
+                        extendDefaults: true
                     }
                 ],
                 "@typescript-eslint/ban-ts-comment": "error",
