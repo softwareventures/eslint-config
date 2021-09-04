@@ -6,7 +6,14 @@ const config: Linter.Config = {
         node: true
     },
     extends: ["eslint:recommended", "prettier"],
-    plugins: ["@typescript-eslint", "import", "jsdoc", "prefer-arrow", "@typescript-eslint/tslint"],
+    plugins: [
+        "@typescript-eslint",
+        "import",
+        "jsdoc",
+        "prefer-arrow",
+        "@typescript-eslint/tslint",
+        "sonarjs"
+    ],
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: "module"
@@ -25,6 +32,7 @@ const config: Linter.Config = {
             },
             rules: {
                 "dot-notation": "off",
+                "sonarjs/prefer-while": "error",
                 "@typescript-eslint/array-type": [
                     "error",
                     {
@@ -141,8 +149,7 @@ const config: Linter.Config = {
                     "error",
                     {
                         rules: {
-                            "no-mergeable-namespace": true,
-                            "prefer-while": true
+                            "no-mergeable-namespace": true
                         }
                     }
                 ]
