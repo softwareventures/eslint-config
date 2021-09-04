@@ -6,14 +6,7 @@ const config: Linter.Config = {
         node: true
     },
     extends: ["eslint:recommended", "prettier"],
-    plugins: [
-        "@typescript-eslint",
-        "import",
-        "jsdoc",
-        "prefer-arrow",
-        "@typescript-eslint/tslint",
-        "sonarjs"
-    ],
+    plugins: ["@typescript-eslint", "import", "jsdoc", "prefer-arrow", "sonarjs"],
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: "module"
@@ -144,15 +137,7 @@ const config: Linter.Config = {
                         lib: "always"
                     }
                 ],
-                "@typescript-eslint/unified-signatures": "error",
-                "@typescript-eslint/tslint/config": [
-                    "error",
-                    {
-                        rules: {
-                            "no-mergeable-namespace": true
-                        }
-                    }
-                ]
+                "@typescript-eslint/unified-signatures": "error"
             }
         },
         {
