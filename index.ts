@@ -90,19 +90,6 @@ const config: Linter.Config = {
                     }
                 ],
                 "@typescript-eslint/interface-name-prefix": "off",
-                "@typescript-eslint/member-delimiter-style": [
-                    "error",
-                    {
-                        multiline: {
-                            delimiter: "semi",
-                            requireLast: true
-                        },
-                        singleline: {
-                            delimiter: "semi",
-                            requireLast: false
-                        }
-                    }
-                ],
                 "@typescript-eslint/member-ordering": "error",
                 "@typescript-eslint/no-empty-function": "off",
                 "@typescript-eslint/no-explicit-any": "off",
