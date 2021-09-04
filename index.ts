@@ -212,7 +212,11 @@ const config: Linter.Config = {
         "no-restricted-imports": [
             "error",
             {
-                patterns: ["**/*.config", "**/*.test", "**/test"]
+                patterns: [
+                    "**/*.config{,.js,.jsx,.ts,.tsx}",
+                    "**/*.test{,.js,.jsx,.ts,.tsx}",
+                    "**/test{,.js,.jsx,.ts,.tsx}"
+                ]
             }
         ],
         "no-return-await": "error",
