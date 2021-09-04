@@ -164,7 +164,6 @@ const config: Linter.Config = {
         "arrow-body-style": "error",
         "arrow-parens": ["off", "always"],
         "brace-style": ["error", "1tbs"],
-        "comma-dangle": "error",
         "complexity": "off",
         "curly": "error",
         "dot-notation": "error",
