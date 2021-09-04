@@ -33,6 +33,7 @@ const config: Linter.Config = {
                         default: "array-simple"
                     }
                 ],
+                "@typescript-eslint/ban-tslint-comment": "error",
                 "@typescript-eslint/ban-types": [
                     "error",
                     {
