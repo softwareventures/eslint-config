@@ -75,6 +75,7 @@ const config: Linter.Config = {
                     {assertionStyle: "as", objectLiteralTypeAssertions: "never"}
                 ],
                 "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
+                "@typescript-eslint/consistent-type-imports": "error",
                 "@typescript-eslint/dot-notation": "error",
                 "@typescript-eslint/explicit-function-return-type": [
                     "error",
