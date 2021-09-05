@@ -216,7 +216,22 @@ const config: Linter.Config = {
         "one-var": ["error", "never"],
         "prefer-arrow/prefer-arrow-functions": ["error", {allowStandaloneDeclarations: true}],
         "prefer-object-spread": "error",
-        "radix": "error"
+        "radix": "error",
+        "@typescript-eslint/naming-convention": [
+            "error",
+            {
+                selector: ["variableLike", "enumMember"],
+                format: ["strictCamelCase"],
+                leadingUnderscore: "forbid",
+                trailingUnderscore: "forbid"
+            },
+            {
+                selector: "typeLike",
+                format: ["StrictPascalCase"],
+                leadingUnderscore: "forbid",
+                trailingUnderscore: "forbid"
+            }
+        ]
     }
 };
 
