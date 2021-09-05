@@ -244,7 +244,8 @@ const config: Linter.Config = {
                 leadingUnderscore: "forbid",
                 trailingUnderscore: "forbid"
             }
-        ]
+        ],
+        "@typescript-eslint/no-loop-func": "error",
     }
 };
 
