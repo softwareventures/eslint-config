@@ -102,6 +102,10 @@ const config: Linter.Config = {
                 "@typescript-eslint/method-signature-style": "error",
                 "@typescript-eslint/no-base-to-string": "error",
                 "@typescript-eslint/no-confusing-non-null-assertion": "error",
+                "@typescript-eslint/no-confusing-void-expression": [
+                    "error",
+                    {ignoreVoidOperator: true}
+                ],
                 "@typescript-eslint/no-empty-function": "off",
                 "@typescript-eslint/no-explicit-any": "off",
                 "@typescript-eslint/no-extraneous-class": "error",
