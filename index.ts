@@ -114,6 +114,7 @@ const config: Linter.Config = {
                 "@typescript-eslint/no-extraneous-class": "error",
                 "@typescript-eslint/no-floating-promises": "error",
                 "@typescript-eslint/no-implicit-any-catch": "error",
+                "@typescript-eslint/no-invalid-void-type": "error",
                 "@typescript-eslint/no-non-null-assertion": "error",
                 "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
                 "@typescript-eslint/no-unsafe-assignment": "off",
