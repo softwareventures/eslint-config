@@ -99,6 +99,7 @@ const config: Linter.Config = {
                 ],
                 "@typescript-eslint/interface-name-prefix": "off",
                 "@typescript-eslint/member-ordering": "error",
+                "@typescript-eslint/method-signature-style": "error",
                 "@typescript-eslint/no-empty-function": "off",
                 "@typescript-eslint/no-explicit-any": "off",
                 "@typescript-eslint/no-extraneous-class": "error",
