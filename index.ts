@@ -109,7 +109,7 @@ const config: Linter.Config = {
                 ],
                 "@typescript-eslint/no-duplicate-imports": "error",
                 "@typescript-eslint/no-empty-function": "off",
-                "@typescript-eslint/no-explicit-any": "off",
+                "@typescript-eslint/no-explicit-any": "error",
                 "@typescript-eslint/no-extraneous-class": "error",
                 "@typescript-eslint/no-floating-promises": "error",
                 "@typescript-eslint/no-non-null-assertion": "error",
