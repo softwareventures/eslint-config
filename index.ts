@@ -25,6 +25,7 @@ const config: Linter.Config = {
             },
             rules: {
                 "dot-notation": "off",
+                "no-duplicate-imports": "off",
                 "no-unused-expressions": "off",
                 "sonarjs/prefer-while": "error",
                 "@typescript-eslint/array-type": [
@@ -106,6 +107,7 @@ const config: Linter.Config = {
                     "error",
                     {ignoreVoidOperator: true}
                 ],
+                "@typescript-eslint/no-duplicate-imports": "error",
                 "@typescript-eslint/no-empty-function": "off",
                 "@typescript-eslint/no-explicit-any": "off",
                 "@typescript-eslint/no-extraneous-class": "error",
