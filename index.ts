@@ -90,6 +90,13 @@ const config: Linter.Config = {
                         accessibility: "explicit"
                     }
                 ],
+                "@typescript-eslint/explicit-module-boundary-types": [
+                    "error",
+                    {
+                        allowDirectConstAssertionInArrowFunctions: false,
+                        allowHigherOrderFunctions: false
+                    }
+                ],
                 "@typescript-eslint/interface-name-prefix": "off",
                 "@typescript-eslint/member-ordering": "error",
                 "@typescript-eslint/no-empty-function": "off",
