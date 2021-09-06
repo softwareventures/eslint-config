@@ -123,7 +123,7 @@ const config: Linter.Config = {
                 "@typescript-eslint/no-unnecessary-type-constraint": "error",
                 "@typescript-eslint/no-unsafe-argument": "error",
                 "@typescript-eslint/no-unsafe-return": "error",
-                "@typescript-eslint/no-unused-expressions": "error",
+                "@typescript-eslint/no-unused-expressions": ["error", {enforceForJSX: true}],
                 "@typescript-eslint/no-unused-vars": "off",
                 "@typescript-eslint/no-useless-constructor": "error",
                 "@typescript-eslint/no-use-before-define": "off",
