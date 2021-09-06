@@ -131,6 +131,7 @@ const config: Linter.Config = {
                 "@typescript-eslint/prefer-for-of": "off",
                 "@typescript-eslint/prefer-function-type": "error",
                 "@typescript-eslint/prefer-includes": "error",
+                "@typescript-eslint/prefer-nullish-coalescing": "error",
                 "@typescript-eslint/prefer-regexp-exec": "off",
                 "@typescript-eslint/promise-function-async": "error",
                 "@typescript-eslint/restrict-template-expressions": [
