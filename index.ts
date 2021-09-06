@@ -246,6 +246,7 @@ const config: Linter.Config = {
             }
         ],
         "@typescript-eslint/no-loop-func": "error",
+        "@typescript-eslint/no-loss-of-precision": "error"
     }
 };
 
