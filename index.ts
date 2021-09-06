@@ -1,4 +1,4 @@
-import {Linter} from "eslint";
+import type {Linter} from "eslint";
 
 const config: Linter.Config = {
     env: {
@@ -25,6 +25,7 @@ const config: Linter.Config = {
             },
             rules: {
                 "dot-notation": "off",
+                "no-unused-expressions": "off",
                 "sonarjs/prefer-while": "error",
                 "@typescript-eslint/array-type": [
                     "error",
@@ -99,6 +100,7 @@ const config: Linter.Config = {
                 "@typescript-eslint/no-unsafe-assignment": "off",
                 "@typescript-eslint/no-unsafe-member-access": "off",
                 "@typescript-eslint/no-unsafe-return": "off",
+                "@typescript-eslint/no-unused-expressions": "error",
                 "@typescript-eslint/no-unused-vars": "off",
                 "@typescript-eslint/no-useless-constructor": "error",
                 "@typescript-eslint/no-use-before-define": "off",
