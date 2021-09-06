@@ -122,7 +122,6 @@ const config: Linter.Config = {
                 "@typescript-eslint/no-unnecessary-type-assertion": "error",
                 "@typescript-eslint/no-unnecessary-type-constraint": "error",
                 "@typescript-eslint/no-unsafe-argument": "error",
-                "@typescript-eslint/no-unsafe-assignment": "off",
                 "@typescript-eslint/no-unsafe-member-access": "off",
                 "@typescript-eslint/no-unsafe-return": "off",
                 "@typescript-eslint/no-unused-expressions": "error",
