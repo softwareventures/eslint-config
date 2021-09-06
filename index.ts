@@ -127,6 +127,7 @@ const config: Linter.Config = {
                 "@typescript-eslint/no-unused-vars": "off",
                 "@typescript-eslint/no-useless-constructor": "error",
                 "@typescript-eslint/no-use-before-define": "off",
+                "@typescript-eslint/non-nullable-type-assertion-style": "error",
                 "@typescript-eslint/prefer-for-of": "off",
                 "@typescript-eslint/prefer-function-type": "error",
                 "@typescript-eslint/prefer-regexp-exec": "off",
