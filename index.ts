@@ -257,6 +257,7 @@ const config: Linter.Config = {
         "radix": "error",
         "sonarjs/no-all-duplicated-branches": "error",
         "sonarjs/no-element-overwrite": "error",
+        "sonarjs/no-empty-collection": "error",
         "sonarjs/no-extra-arguments": "error",
         "sonarjs/no-identical-conditions": "error",
         "sonarjs/no-identical-expressions": "error",
