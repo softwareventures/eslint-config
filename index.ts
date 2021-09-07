@@ -23,6 +23,7 @@ const config: Linter.Config = {
                 project: "tsconfig.json"
             },
             rules: {
+                "array-callback-return": "off",
                 "dot-notation": "off",
                 "no-duplicate-imports": "off",
                 "no-unsafe-optional-chaining": "off",
@@ -197,6 +198,7 @@ const config: Linter.Config = {
         }
     ],
     rules: {
+        "array-callback-return": "error",
         "arrow-body-style": "error",
         "complexity": "off",
         "curly": "error",
