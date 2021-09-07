@@ -259,6 +259,7 @@ const config: Linter.Config = {
         "sonarjs/no-element-overwrite": "error",
         "sonarjs/no-extra-arguments": "error",
         "sonarjs/no-identical-conditions": "error",
+        "sonarjs/no-identical-expressions": "error",
         "sonarjs/prefer-while": "error",
         "@typescript-eslint/naming-convention": [
             "error",
