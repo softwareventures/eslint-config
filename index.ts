@@ -273,6 +273,7 @@ const config: Linter.Config = {
         "no-unused-expressions": "error",
         "no-useless-backreference": "error",
         "no-useless-call": "error",
+        "no-useless-concat": "error",
         "object-shorthand": "error",
         "one-var": ["error", "never"],
         "prefer-arrow/prefer-arrow-functions": ["error", {allowStandaloneDeclarations: true}],
