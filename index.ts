@@ -255,6 +255,7 @@ const config: Linter.Config = {
         "prefer-object-spread": "error",
         "radix": "error",
         "sonarjs/no-all-duplicated-branches": "error",
+        "sonarjs/no-element-overwrite": "error",
         "sonarjs/prefer-while": "error",
         "@typescript-eslint/naming-convention": [
             "error",
