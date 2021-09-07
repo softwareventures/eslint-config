@@ -228,6 +228,7 @@ const config: Linter.Config = {
         "jsdoc/no-types": "error",
         "max-classes-per-file": "off",
         "new-parens": "error",
+        "no-alert": "error",
         "no-caller": "error",
         "no-duplicate-imports": "error",
         "no-empty": "off",
