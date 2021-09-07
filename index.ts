@@ -230,6 +230,7 @@ const config: Linter.Config = {
         "new-parens": "error",
         "no-alert": "error",
         "no-caller": "error",
+        "no-constructor-return": "error",
         "no-duplicate-imports": "error",
         "no-empty": "off",
         "no-empty-function": "off",
