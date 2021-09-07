@@ -270,6 +270,7 @@ const config: Linter.Config = {
         "sonarjs/no-inverted-boolean-check": "error",
         "sonarjs/no-one-iteration-loop": "error",
         "sonarjs/no-redundant-boolean": "error",
+        "sonarjs/no-redundant-jump": "error",
         "sonarjs/no-use-of-empty-return-value": "error",
         "sonarjs/non-existent-operator": "error",
         "sonarjs/prefer-while": "error",
