@@ -282,6 +282,7 @@ const config: Linter.Config = {
         "prefer-regex-literals": ["error", {disallowRedundantWrapping: true}],
         "radix": "error",
         "require-atomic-updates": "error",
+        "require-unicode-regexp": "error",
         "sonarjs/no-all-duplicated-branches": "error",
         "sonarjs/no-collapsible-if": "error",
         "sonarjs/no-collection-size-mischeck": "error",
