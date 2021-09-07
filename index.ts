@@ -138,6 +138,10 @@ const config: Linter.Config = {
                 "@typescript-eslint/prefer-return-this-type": "error",
                 "@typescript-eslint/prefer-string-starts-ends-with": "error",
                 "@typescript-eslint/promise-function-async": "error",
+                "@typescript-eslint/require-array-sort-compare": [
+                    "error",
+                    {ignoreStringArrays: true}
+                ],
                 "@typescript-eslint/restrict-template-expressions": [
                     "error",
                     {
