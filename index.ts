@@ -242,6 +242,7 @@ const config: Linter.Config = {
         "no-implicit-coercion": "error",
         "no-invalid-this": "error",
         "no-irregular-whitespace": ["error", {skipStrings: false}],
+        "no-iterator": "error",
         "no-new-func": "error",
         "no-new-wrappers": "error",
         "no-promise-executor-return": "error",
