@@ -278,6 +278,7 @@ const config: Linter.Config = {
         "one-var": ["error", "never"],
         "prefer-arrow/prefer-arrow-functions": ["error", {allowStandaloneDeclarations: true}],
         "prefer-object-spread": "error",
+        "prefer-promise-reject-errors": "error",
         "radix": "error",
         "require-atomic-updates": "error",
         "sonarjs/no-all-duplicated-branches": "error",
