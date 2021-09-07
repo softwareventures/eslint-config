@@ -272,6 +272,7 @@ const config: Linter.Config = {
         "no-unsafe-optional-chaining": ["error", {disallowArithmeticOperators: true}],
         "no-unused-expressions": "error",
         "no-useless-backreference": "error",
+        "no-useless-call": "error",
         "object-shorthand": "error",
         "one-var": ["error", "never"],
         "prefer-arrow/prefer-arrow-functions": ["error", {allowStandaloneDeclarations: true}],
