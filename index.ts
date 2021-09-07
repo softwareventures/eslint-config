@@ -260,6 +260,7 @@ const config: Linter.Config = {
         "prefer-arrow/prefer-arrow-functions": ["error", {allowStandaloneDeclarations: true}],
         "prefer-object-spread": "error",
         "radix": "error",
+        "require-atomic-updates": "error",
         "sonarjs/no-all-duplicated-branches": "error",
         "sonarjs/no-collapsible-if": "error",
         "sonarjs/no-collection-size-mischeck": "error",
