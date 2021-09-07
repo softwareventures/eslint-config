@@ -238,6 +238,7 @@ const config: Linter.Config = {
         "no-extend-native": "error",
         "no-extra-bind": "error",
         "no-extra-semi": "off",
+        "no-implicit-coercion": "error",
         "no-irregular-whitespace": ["error", {skipStrings: false}],
         "no-new-func": "error",
         "no-new-wrappers": "error",
