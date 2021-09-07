@@ -263,6 +263,7 @@ const config: Linter.Config = {
         "sonarjs/no-identical-conditions": "error",
         "sonarjs/no-identical-expressions": "error",
         "sonarjs/no-one-iteration-loop": "error",
+        "sonarjs/no-use-of-empty-return-value": "error",
         "sonarjs/prefer-while": "error",
         "@typescript-eslint/naming-convention": [
             "error",
