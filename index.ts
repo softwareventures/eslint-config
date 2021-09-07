@@ -27,6 +27,7 @@ const config: Linter.Config = {
                 "no-duplicate-imports": "off",
                 "no-unused-expressions": "off",
                 "sonarjs/no-extra-arguments": "off",
+                "sonarjs/no-ignored-return": "error",
                 "@typescript-eslint/array-type": [
                     "error",
                     {
