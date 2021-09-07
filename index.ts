@@ -133,6 +133,7 @@ const config: Linter.Config = {
                 "@typescript-eslint/prefer-includes": "error",
                 "@typescript-eslint/prefer-nullish-coalescing": "error",
                 "@typescript-eslint/prefer-optional-chain": "error",
+                "@typescript-eslint/prefer-readonly": "error",
                 "@typescript-eslint/prefer-regexp-exec": "off",
                 "@typescript-eslint/promise-function-async": "error",
                 "@typescript-eslint/restrict-template-expressions": [
