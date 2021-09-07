@@ -263,6 +263,7 @@ const config: Linter.Config = {
         "sonarjs/no-element-overwrite": "error",
         "sonarjs/no-empty-collection": "error",
         "sonarjs/no-extra-arguments": "error",
+        "sonarjs/no-gratuitous-expressions": "error",
         "sonarjs/no-identical-conditions": "error",
         "sonarjs/no-identical-expressions": "error",
         "sonarjs/no-one-iteration-loop": "error",
