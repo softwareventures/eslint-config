@@ -247,6 +247,7 @@ const config: Linter.Config = {
         "no-new-func": "error",
         "no-new-wrappers": "error",
         "no-nonoctal-decimal-escape": "error",
+        "no-octal-escape": "error",
         "no-promise-executor-return": "error",
         "no-proto": "error",
         "no-restricted-imports": [
