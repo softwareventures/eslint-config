@@ -233,6 +233,7 @@ const config: Linter.Config = {
         "no-irregular-whitespace": ["error", {skipStrings: false}],
         "no-new-func": "error",
         "no-new-wrappers": "error",
+        "no-promise-executor-return": "error",
         "no-proto": "error",
         "no-restricted-imports": [
             "error",
