@@ -152,6 +152,18 @@ const config: Linter.Config = {
                     }
                 ],
                 "@typescript-eslint/require-await": "off",
+                "@typescript-eslint/strict-boolean-expressions": [
+                    "error",
+                    {
+                        allowString: false,
+                        allowNumber: false,
+                        allowNullableObject: false,
+                        allowNullableBoolean: false,
+                        allowNullableString: false,
+                        allowNullableNumber: false,
+                        allowAny: false
+                    }
+                ],
                 "@typescript-eslint/triple-slash-reference": [
                     "error",
                     {
