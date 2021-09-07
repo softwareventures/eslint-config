@@ -24,6 +24,7 @@ const config: Linter.Config = {
             },
             rules: {
                 "array-callback-return": "off",
+                "consistent-return": "off",
                 "dot-notation": "off",
                 "no-duplicate-imports": "off",
                 "no-unsafe-optional-chaining": "off",
@@ -201,6 +202,7 @@ const config: Linter.Config = {
         "array-callback-return": "error",
         "arrow-body-style": "error",
         "complexity": "off",
+        "consistent-return": "error",
         "curly": "error",
         "dot-notation": "error",
         "eqeqeq": ["error", "always", {null: "never"}],
