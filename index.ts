@@ -265,6 +265,7 @@ const config: Linter.Config = {
         "no-return-await": "error",
         "no-script-url": "error",
         "no-self-compare": "error",
+        "no-sequences": ["error", {allowInParentheses: false}],
         "no-throw-literal": "error",
         "no-undef-init": "error",
         "no-underscore-dangle": "error",
