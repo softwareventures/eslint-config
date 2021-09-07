@@ -25,6 +25,7 @@ const config: Linter.Config = {
             rules: {
                 "dot-notation": "off",
                 "no-duplicate-imports": "off",
+                "no-unsafe-optional-chaining": "off",
                 "no-unused-expressions": "off",
                 "sonarjs/no-extra-arguments": "off",
                 "sonarjs/no-ignored-return": "error",
@@ -251,6 +252,7 @@ const config: Linter.Config = {
         "no-throw-literal": "error",
         "no-undef-init": "error",
         "no-underscore-dangle": "error",
+        "no-unsafe-optional-chaining": ["error", {disallowArithmeticOperators: true}],
         "no-unused-expressions": "error",
         "object-shorthand": "error",
         "one-var": ["error", "never"],
