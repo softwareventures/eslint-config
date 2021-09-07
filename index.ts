@@ -266,6 +266,7 @@ const config: Linter.Config = {
         "sonarjs/no-gratuitous-expressions": "error",
         "sonarjs/no-identical-conditions": "error",
         "sonarjs/no-identical-expressions": "error",
+        "sonarjs/no-identical-functions": "error",
         "sonarjs/no-one-iteration-loop": "error",
         "sonarjs/no-use-of-empty-return-value": "error",
         "sonarjs/non-existent-operator": "error",
