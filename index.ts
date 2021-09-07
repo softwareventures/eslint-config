@@ -26,7 +26,6 @@ const config: Linter.Config = {
                 "dot-notation": "off",
                 "no-duplicate-imports": "off",
                 "no-unused-expressions": "off",
-                "sonarjs/prefer-while": "error",
                 "@typescript-eslint/array-type": [
                     "error",
                     {
@@ -255,6 +254,7 @@ const config: Linter.Config = {
         "prefer-arrow/prefer-arrow-functions": ["error", {allowStandaloneDeclarations: true}],
         "prefer-object-spread": "error",
         "radix": "error",
+        "sonarjs/prefer-while": "error",
         "@typescript-eslint/naming-convention": [
             "error",
             {
