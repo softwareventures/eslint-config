@@ -135,6 +135,7 @@ const config: Linter.Config = {
                 "@typescript-eslint/prefer-optional-chain": "error",
                 "@typescript-eslint/prefer-readonly": "error",
                 "@typescript-eslint/prefer-regexp-exec": "off",
+                "@typescript-eslint/prefer-return-this-type": "error",
                 "@typescript-eslint/promise-function-async": "error",
                 "@typescript-eslint/restrict-template-expressions": [
                     "error",
