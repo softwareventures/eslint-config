@@ -254,6 +254,7 @@ const config: Linter.Config = {
         "prefer-arrow/prefer-arrow-functions": ["error", {allowStandaloneDeclarations: true}],
         "prefer-object-spread": "error",
         "radix": "error",
+        "sonarjs/no-all-duplicated-branches": "error",
         "sonarjs/prefer-while": "error",
         "@typescript-eslint/naming-convention": [
             "error",
