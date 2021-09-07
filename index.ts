@@ -246,6 +246,7 @@ const config: Linter.Config = {
         "no-lone-blocks": "error",
         "no-new-func": "error",
         "no-new-wrappers": "error",
+        "no-nonoctal-decimal-escape": "error",
         "no-promise-executor-return": "error",
         "no-proto": "error",
         "no-restricted-imports": [

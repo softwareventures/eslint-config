@@ -2,6 +2,7 @@
   <dictionary name="djc">
     <words>
       <w>mischeck</w>
+      <w>nonoctal</w>
     </words>
   </dictionary>
 </component>
