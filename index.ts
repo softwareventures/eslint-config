@@ -283,6 +283,7 @@ const config: Linter.Config = {
         "prefer-arrow/prefer-arrow-functions": ["error", {allowStandaloneDeclarations: true}],
         "prefer-const": "error",
         "prefer-exponentiation-operator": "error",
+        "prefer-numeric-literals": "error",
         "prefer-object-spread": "error",
         "prefer-promise-reject-errors": "error",
         "prefer-regex-literals": ["error", {disallowRedundantWrapping: true}],
