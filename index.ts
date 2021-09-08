@@ -278,6 +278,7 @@ const config: Linter.Config = {
         "object-shorthand": "error",
         "one-var": ["error", "never"],
         "prefer-arrow/prefer-arrow-functions": ["error", {allowStandaloneDeclarations: true}],
+        "prefer-exponentiation-operator": "error",
         "prefer-object-spread": "error",
         "prefer-promise-reject-errors": "error",
         "prefer-regex-literals": ["error", {disallowRedundantWrapping: true}],
