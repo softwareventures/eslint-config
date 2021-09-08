@@ -286,6 +286,7 @@ const config: Linter.Config = {
         "prefer-numeric-literals": "error",
         "prefer-object-spread": "error",
         "prefer-promise-reject-errors": "error",
+        "prefer-rest-params": "error",
         "prefer-regex-literals": ["error", {disallowRedundantWrapping: true}],
         "radix": "error",
         "require-atomic-updates": "error",
