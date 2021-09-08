@@ -276,6 +276,7 @@ const config: Linter.Config = {
         "no-useless-call": "error",
         "no-useless-computed-key": "error",
         "no-useless-concat": "error",
+        "no-useless-rename": "error",
         "object-shorthand": "error",
         "one-var": ["error", "never"],
         "prefer-arrow/prefer-arrow-functions": ["error", {allowStandaloneDeclarations: true}],
