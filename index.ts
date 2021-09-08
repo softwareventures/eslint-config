@@ -269,6 +269,7 @@ const config: Linter.Config = {
         "no-throw-literal": "error",
         "no-undef-init": "error",
         "no-underscore-dangle": "error",
+        "no-unneeded-ternary": "error",
         "no-unsafe-optional-chaining": ["error", {disallowArithmeticOperators: true}],
         "no-unused-expressions": "error",
         "no-useless-backreference": "error",
