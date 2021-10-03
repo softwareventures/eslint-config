@@ -197,6 +197,32 @@ const config: Linter.Config = {
             }
         },
         {
+            files: ["*.tsx"],
+            rules: {
+                "@typescript-eslint/naming-convention": [
+                    "error",
+                    {
+                        selector: ["variable", "parameter", "enumMember"],
+                        format: ["strictCamelCase"],
+                        leadingUnderscore: "forbid",
+                        trailingUnderscore: "forbid"
+                    },
+                    {
+                        selector: ["function"],
+                        format: ["strictCamelCase", "StrictPascalCase"],
+                        leadingUnderscore: "forbid",
+                        trailingUnderscore: "forbid"
+                    },
+                    {
+                        selector: "typeLike",
+                        format: ["StrictPascalCase"],
+                        leadingUnderscore: "forbid",
+                        trailingUnderscore: "forbid"
+                    }
+                ]
+            }
+        },
+        {
             files: [
                 "test.ts",
                 "test.tsx",
