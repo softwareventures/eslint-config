@@ -214,10 +214,27 @@ const config: Linter.Config = {
                         trailingUnderscore: "forbid"
                     },
                     {
-                        selector: "typeLike",
+                        selector: ["class", "interface", "typeAlias", "enum"],
                         format: ["StrictPascalCase"],
                         leadingUnderscore: "forbid",
                         trailingUnderscore: "forbid"
+                    },
+                    {
+                        selector: ["typeParameter"],
+                        format: ["StrictPascalCase"],
+                        prefix: ["T"],
+                        filter: "..",
+                        leadingUnderscore: "forbid",
+                        trailingUnderscore: "forbid"
+                    },
+                    {
+                        selector: ["typeParameter"],
+                        format: ["UPPER_CASE"],
+                        custom: {
+                            regex: "^[A-Z]$",
+                            match: true
+                        },
+                        filter: "^.$"
                     }
                 ]
             }
