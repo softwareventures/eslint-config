@@ -33,7 +33,7 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0",
+    "eslint": "^7.0.0 || ^8.0.0",
     "typescript": "^3.8.3 || ^4.0.0"
   },
   "devDependencies": {
@@ -43,7 +43,7 @@
     "@types/eslint": "7.28.2",
     "ava": "3.15.0",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "7.32.0",
+    "eslint": "8.2.0",
     "prettier": "2.4.1",
     "semantic-release": "17.4.7",
     "ts-node": "10.4.0",
