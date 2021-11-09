@@ -258,6 +258,8 @@ const config: Linter.Config = {
         },
         {
             files: [
+                "test/**/*.ts",
+                "test/**/*.tsx",
                 "test.ts",
                 "test.tsx",
                 "*.test.ts",
@@ -270,7 +272,12 @@ const config: Linter.Config = {
             }
         },
         {
-            files: ["test.{js,jsx,ts,tsx}", "*.test.{js,jsx,ts,tsx}", "*.config.{js,jsx,ts,tsx}"],
+            files: [
+                "test/**/*.{js,jsx,ts,tsx}",
+                "test.{js,jsx,ts,tsx}",
+                "*.test.{js,jsx,ts,tsx}",
+                "*.config.{js,jsx,ts,tsx}"
+            ],
             rules: {
                 "no-restricted-imports": "off"
             }
@@ -291,6 +298,7 @@ const config: Linter.Config = {
             "error",
             {
                 devDependencies: [
+                    "**/test/**/*.{js,jsx,ts,tsx}",
                     "**/*.config.{js,jsx,ts,tsx}",
                     "**/*.test.{js,jsx,ts,tsx}",
                     "**/*.test-d.{ts,tsx}",
@@ -332,6 +340,7 @@ const config: Linter.Config = {
             "error",
             {
                 patterns: [
+                    "**/test/**/*{,.js,.jsx,.ts,.tsx}",
                     "**/*.config{,.js,.jsx,.ts,.tsx}",
                     "**/*.test{,.js,.jsx,.ts,.tsx}",
                     "**/test{,.js,.jsx,.ts,.tsx}"
