@@ -502,10 +502,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@softwareventures/prettier-config@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@softwareventures/prettier-config/-/prettier-config-1.0.3.tgz#dac16415dfe766aeb24f301f1d62d3590f7bc819"
-  integrity sha512-rOUgvN4rvp8oJxJA3J90dDFe4Z6CXBL6Rr0GNUe/qRAvWxjRKeV6Pg5YQ9l5qkxbBow2tWlFBDjdZoiUztFCfg==
+"@softwareventures/prettier-config@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/prettier-config/-/prettier-config-2.0.0.tgz#e0a4740728129ce66bd2a7b8eb2cc9326d841ef3"
+  integrity sha512-MxSPKUgoozAttEGLmD5wuk55CtG4gYf8QPpiil5xz8lE6yQj4fKRgOT9Cmisn6P8DG3JPq9yGo5jD/XTmwV0rw==
   dependencies:
     tslib "1.14.1"
 
