@@ -33,17 +33,17 @@
     "tslib": "^2.3.1"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0",
+    "eslint": "^7.0.0 || ^8.0.0",
     "typescript": "^3.8.3 || ^4.0.0"
   },
   "devDependencies": {
     "@softwareventures/prettier-config": "2.0.0",
     "@softwareventures/semantic-release-config": "2.0.0",
     "@softwareventures/tsconfig": "5.1.0",
-    "@types/eslint": "7.29.0",
+    "@types/eslint": "8.4.0",
     "ava": "3.15.0",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "8.2.0",
+    "eslint": "8.7.0",
     "prettier": "2.5.1",
     "semantic-release": "17.4.7",
     "ts-node": "10.4.0",
