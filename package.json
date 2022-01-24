@@ -13,9 +13,10 @@
   "repository": "github:softwareventures/eslint-config",
   "license": "ISC",
   "scripts": {
+    "pre-commit": "precise-commits",
     "fix": "tsc --noEmit && eslint . --fix && prettier --write .",
     "lint": "tsc --noEmit && eslint . && prettier --check .",
-    "prepare": "tsc",
+    "prepare": "husky install && tsc",
     "semantic-release": "semantic-release",
     "test": "ava"
   },
@@ -37,6 +38,7 @@
     "typescript": "^3.8.3 || ^4.0.0"
   },
   "devDependencies": {
+    "@softwareventures/precise-commits": "2.0.16",
     "@softwareventures/prettier-config": "2.0.0",
     "@softwareventures/semantic-release-config": "2.0.0",
     "@softwareventures/tsconfig": "5.1.0",
@@ -44,6 +46,7 @@
     "ava": "4.0.1",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.7.0",
+    "husky": "7.0.4",
     "prettier": "2.5.1",
     "semantic-release": "17.4.7",
     "ts-node": "10.4.0",
