@@ -108,6 +108,24 @@ const config: Linter.Config = {
                 "@typescript-eslint/naming-convention": [
                     "error",
                     {
+                        selector: ["parameter"],
+                        modifiers: ["unused"],
+                        filter: "..",
+                        format: ["strictCamelCase"],
+                        leadingUnderscore: "allow",
+                        trailingUnderscore: "forbid"
+                    },
+                    {
+                        selector: ["parameter"],
+                        modifiers: ["unused"],
+                        filter: "^.$",
+                        format: null,
+                        custom: {
+                            regex: "^_$",
+                            match: true
+                        }
+                    },
+                    {
                         selector: ["variableLike", "enumMember"],
                         format: ["strictCamelCase"],
                         leadingUnderscore: "forbid",
