@@ -38,7 +38,7 @@
     "typescript": "^3.8.3 || ^4.0.0"
   },
   "devDependencies": {
-    "@softwareventures/precise-commits": "2.0.17",
+    "@softwareventures/precise-commits": "2.0.18",
     "@softwareventures/prettier-config": "3.0.0",
     "@softwareventures/semantic-release-config": "2.0.0",
     "@softwareventures/tsconfig": "5.1.1",
