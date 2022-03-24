@@ -12,7 +12,7 @@ const config: Linter.Config = {
     },
     overrides: [
         {
-            files: ["*.ts", "*.tsx"],
+            files: ["*.{,c,m}ts{,x}"],
             extends: [
                 "plugin:@typescript-eslint/eslint-recommended",
                 "plugin:@typescript-eslint/recommended",
@@ -232,7 +232,7 @@ const config: Linter.Config = {
             }
         },
         {
-            files: ["*.tsx"],
+            files: ["*.{,c,m}tsx"],
             rules: {
                 "@typescript-eslint/naming-convention": [
                     "error",
@@ -276,14 +276,10 @@ const config: Linter.Config = {
         },
         {
             files: [
-                "test/**/*.ts",
-                "test/**/*.tsx",
-                "test.ts",
-                "test.tsx",
-                "*.test.ts",
-                "*.test.tsx",
-                "*.test-d.ts",
-                "*.test-d.tsx"
+                "test/**/*.{,c,m}ts{,x}",
+                "test.{,c,m}ts{,x}",
+                "*.test.{,c,m}ts{,x}",
+                "*.test-d.{,c,m}ts{,x}"
             ],
             parserOptions: {
                 project: "tsconfig.test.json"
@@ -291,10 +287,10 @@ const config: Linter.Config = {
         },
         {
             files: [
-                "test/**/*.{js,jsx,ts,tsx}",
-                "test.{js,jsx,ts,tsx}",
-                "*.test.{js,jsx,ts,tsx}",
-                "*.config.{js,jsx,ts,tsx}"
+                "test/**/*.{,c,m}{js,ts}{,x}",
+                "test.{,c,m}{js,ts}{,x}",
+                "*.test.{,c,m}{js,ts}{,x}",
+                "*.config.{,c,m}{js,ts}{,x}"
             ],
             rules: {
                 "no-restricted-imports": "off"
