@@ -312,11 +312,11 @@ const config: Linter.Config = {
             "error",
             {
                 devDependencies: [
-                    "**/test/**/*.{js,jsx,ts,tsx}",
-                    "**/*.config.{js,jsx,ts,tsx}",
-                    "**/*.test.{js,jsx,ts,tsx}",
-                    "**/*.test-d.{ts,tsx}",
-                    "**/test.{js,jsx,ts,tsx}"
+                    "**/test/**/*.{,c,m}{js,ts}{,x}",
+                    "**/*.config.{,c,m}{js,ts}{,x}",
+                    "**/*.test.{,c,m}{js,ts}{,x}",
+                    "**/*.test-d.{,c,m}ts{,x}",
+                    "**/test.{,c,m}{js,ts}{,x}"
                 ],
                 optionalDependencies: false
             }
