@@ -293,7 +293,7 @@ const config: Linter.Config = {
                 "*.config.{,c,m}{js,ts}{,x}"
             ],
             rules: {
-                "no-restricted-imports": "off"
+                "@typescript-eslint/no-restricted-imports": "off"
             }
         }
     ],
@@ -350,14 +350,15 @@ const config: Linter.Config = {
         "no-param-reassign": "error",
         "no-promise-executor-return": "error",
         "no-proto": "error",
-        "no-restricted-imports": [
+        "@typescript-eslint/no-restricted-imports": [
             "error",
             {
                 patterns: [
-                    "**/test/**/*{,.js,.jsx,.ts,.tsx}",
-                    "**/*.config{,.js,.jsx,.ts,.tsx}",
-                    "**/*.test{,.js,.jsx,.ts,.tsx}",
-                    "**/test{,.js,.jsx,.ts,.tsx}"
+                    "**/test/**/*",
+                    "**/*.config",
+                    "**/*.config.*",
+                    "**/*.test",
+                    "**/*.test.*"
                 ]
             }
         ],
