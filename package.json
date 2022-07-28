@@ -43,7 +43,7 @@
     "@softwareventures/semantic-release-config": "2.0.2",
     "@softwareventures/tsconfig": "6.0.0",
     "@types/eslint": "8.4.5",
-    "@typescript-eslint/eslint-plugin": "5.3.0",
+    "@typescript-eslint/eslint-plugin": "5.31.0",
     "@typescript-eslint/parser": "5.3.0",
     "ava": "4.2.0",
     "cz-conventional-changelog": "3.3.0",
