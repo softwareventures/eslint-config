@@ -228,7 +228,8 @@ const config: Linter.Config = {
                         lib: "always"
                     }
                 ],
-                "@typescript-eslint/unified-signatures": "error"
+                "@typescript-eslint/unified-signatures": "error",
+                "no-underscore-dangle": "off"
             }
         },
         {
