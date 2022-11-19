@@ -480,42 +480,43 @@
     lodash "^4.17.4"
     read-pkg-up "^7.0.0"
 
-"@softwareventures/array@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-5.0.1.tgz#2d4d3cf6668ca281fbcc4909e2db3258af28363e"
-  integrity sha512-xvg0Oc0Cx9ENukNbtv2/zSOqOZ6qkF4KJ1CKfO+M7SWfn8j25znUwvNq+nOrZfOqlU93WRN35IO0rIIzxbL3bw==
+"@softwareventures/array@5.3.0":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-5.3.0.tgz#25c65761719745521c341df134c78376294ee13e"
+  integrity sha512-1ViQStiZ6XxuvT2UPvc1Nd2brASDsuNM3wWlJpADqEAzJbyHXVCAGaYzOr8TDm2BE9KNK2LmKTf6MnKrNPGyJA==
   dependencies:
-    "@softwareventures/nullable" "^1.0.0 || ^1.0.0 || ^1.2.1 || ^2.0.0"
-    "@softwareventures/ordered" "^0.2.0 || ^1.0.0"
+    "@softwareventures/nullable" "^1.0.0 || ^2.0.0"
+    "@softwareventures/ordered" "^1.1.0"
     tslib "^2.0.0"
 
-"@softwareventures/nullable@^1.0.0 || ^1.0.0 || ^1.2.1 || ^2.0.0":
+"@softwareventures/nullable@2.0.0", "@softwareventures/nullable@^1.0.0 || ^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@softwareventures/nullable/-/nullable-2.0.0.tgz#d11498c5fe71bb0b94ba85a40e774c19c721c5d3"
   integrity sha512-zx+FMgB4MqmqIiCglgP8GZIYPw57yFBuz/jh0kXNAoEtSRl3LkwhaGG0b/y5yae2RsYSaVkNotQaSmJRt5GahA==
   dependencies:
     tslib "2.3.0"
 
-"@softwareventures/ordered@^0.2.0 || ^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/ordered/-/ordered-1.0.0.tgz#d803eef43bb0b4ccfcd78d2928fe38b5109ad99e"
-  integrity sha512-SUFUYDWEPAS54LpGH+mRHwkGuTINPDt4OOS3h/Zr9f12JPFz2cqh6Xxwg75BZqwaeONuUwmklJVMRmgvxSSkPA==
+"@softwareventures/ordered@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/ordered/-/ordered-1.1.0.tgz#5bd8929574d309738f6bcccaa017557979a4e303"
+  integrity sha512-XkoiEiTiLhDnDHYKmDobtoNlqYEmK/LK/FOeKzfIOB8Xfl9+Q6toDxSasB+T6coOZiJ0GA23XFsSkh0grC2Nng==
   dependencies:
     tslib "^1.9.3 || ^2.0.0 || ^2.1.0"
 
-"@softwareventures/precise-commits@2.0.18":
-  version "2.0.18"
-  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.18.tgz#974db691ff9b42c1d68bff3d930a50cd98bcd847"
-  integrity sha512-oBkWt92qXr2WMpVsEq6ZfIT0Lc52WiVc73Jv6W2IwLUlkh/qgAkGAi4sug57SmCpFMWc8CVPM3TqWwEOOfAtmw==
+"@softwareventures/precise-commits@2.0.24":
+  version "2.0.24"
+  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.24.tgz#6cb339782b638b6519bbfb7693a2ba4bc0978a90"
+  integrity sha512-rwzRWi2XRAjgrOnaXrjWrjwzUf0mKLvr9UnSfMxsmMQC3g2foCtqqXCV/TBpMTZAb9v2A1ausuM0MT7iDK9RWw==
   dependencies:
-    "@softwareventures/array" "5.0.1"
+    "@softwareventures/array" "5.3.0"
+    "@softwareventures/nullable" "2.0.0"
     execa "5.1.1"
     find-up "5.0.0"
     glob "7.2.0"
     ignore "5.2.0"
     mri "1.2.0"
     ora "5.4.1"
-    tslib "2.3.1"
+    tslib "2.4.0"
     unknown "0.2.5"
 
 "@softwareventures/prettier-config@3.0.0":
@@ -1622,10 +1623,10 @@ dateformat@^3.0.0:
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
   integrity sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
 
-debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.3:
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.3.tgz#04266e0b70a98d4462e6e288e38259213332b664"
-  integrity sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==
+debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.3, debug@^4.3.4:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
   dependencies:
     ms "2.1.2"
 
@@ -1642,13 +1643,6 @@ debug@^3.2.7:
   integrity sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==
   dependencies:
     ms "^2.1.1"
-
-debug@^4.3.4:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
-  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
-  dependencies:
-    ms "2.1.2"
 
 debuglog@^1.0.1:
   version "1.0.1"
@@ -5327,10 +5321,15 @@ tslib@2.3.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
   integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
 
-tslib@2.3.1, "tslib@^1.9.3 || ^2.0.0 || ^2.1.0", tslib@^2.0.0, tslib@^2.3.1:
+tslib@2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
+
+tslib@2.4.0, "tslib@^1.9.3 || ^2.0.0 || ^2.1.0", tslib@^2.0.0, tslib@^2.3.1:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
