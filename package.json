@@ -34,7 +34,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jsdoc": "^37.0.3 || ^38.0.0",
     "eslint-plugin-prefer-arrow": "^1.2.3",
-    "eslint-plugin-sonarjs": "^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0",
+    "eslint-plugin-sonarjs": "^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^0.16.0",
     "typescript": "^3.8.3 || ^4.0.0"
   },
   "devDependencies": {
@@ -52,7 +52,7 @@
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-jsdoc": "37.0.3",
     "eslint-plugin-prefer-arrow": "1.2.3",
-    "eslint-plugin-sonarjs": "0.13.0",
+    "eslint-plugin-sonarjs": "0.16.0",
     "husky": "7.0.4",
     "prettier": "2.7.1",
     "semantic-release": "17.4.7",
