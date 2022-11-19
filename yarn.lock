@@ -499,35 +499,35 @@
     lodash "^4.17.4"
     read-pkg-up "^7.0.0"
 
-"@softwareventures/array@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-5.2.0.tgz#235a8427378b84f18031a09ede0142d6ec6a8e67"
-  integrity sha512-vVleJME+wOObPdbgYLYwiVN3VV48gzA6I86fOzpNwjk1rFtVtEttVO9lUcGUrXoNaFwYNM+I9VfLaLqaiKdbxA==
+"@softwareventures/array@5.3.0":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/array/-/array-5.3.0.tgz#25c65761719745521c341df134c78376294ee13e"
+  integrity sha512-1ViQStiZ6XxuvT2UPvc1Nd2brASDsuNM3wWlJpADqEAzJbyHXVCAGaYzOr8TDm2BE9KNK2LmKTf6MnKrNPGyJA==
   dependencies:
-    "@softwareventures/nullable" "^1.0.0 || ^1.0.0 || ^1.2.1 || ^2.0.0"
-    "@softwareventures/ordered" "^0.2.0 || ^1.0.0"
+    "@softwareventures/nullable" "^1.0.0 || ^2.0.0"
+    "@softwareventures/ordered" "^1.1.0"
     tslib "^2.0.0"
 
-"@softwareventures/nullable@2.0.0", "@softwareventures/nullable@^1.0.0 || ^1.0.0 || ^1.2.1 || ^2.0.0":
+"@softwareventures/nullable@2.0.0", "@softwareventures/nullable@^1.0.0 || ^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@softwareventures/nullable/-/nullable-2.0.0.tgz#d11498c5fe71bb0b94ba85a40e774c19c721c5d3"
   integrity sha512-zx+FMgB4MqmqIiCglgP8GZIYPw57yFBuz/jh0kXNAoEtSRl3LkwhaGG0b/y5yae2RsYSaVkNotQaSmJRt5GahA==
   dependencies:
     tslib "2.3.0"
 
-"@softwareventures/ordered@^0.2.0 || ^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/ordered/-/ordered-1.0.0.tgz#d803eef43bb0b4ccfcd78d2928fe38b5109ad99e"
-  integrity sha512-SUFUYDWEPAS54LpGH+mRHwkGuTINPDt4OOS3h/Zr9f12JPFz2cqh6Xxwg75BZqwaeONuUwmklJVMRmgvxSSkPA==
+"@softwareventures/ordered@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/ordered/-/ordered-1.1.0.tgz#5bd8929574d309738f6bcccaa017557979a4e303"
+  integrity sha512-XkoiEiTiLhDnDHYKmDobtoNlqYEmK/LK/FOeKzfIOB8Xfl9+Q6toDxSasB+T6coOZiJ0GA23XFsSkh0grC2Nng==
   dependencies:
     tslib "^1.9.3 || ^2.0.0 || ^2.1.0"
 
-"@softwareventures/precise-commits@2.0.22":
-  version "2.0.22"
-  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.22.tgz#de243e9cf2a28ec28632ab404d7f4489b80a8c5e"
-  integrity sha512-Q/9h1iiBuy1OIo83dyQBT/PY9DFbhgGqPvkU/dj8+Y0qQDi+tyNYLuVWspQb75/byaBDw/9AFhIcMDO666XoPA==
+"@softwareventures/precise-commits@2.0.24":
+  version "2.0.24"
+  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.24.tgz#6cb339782b638b6519bbfb7693a2ba4bc0978a90"
+  integrity sha512-rwzRWi2XRAjgrOnaXrjWrjwzUf0mKLvr9UnSfMxsmMQC3g2foCtqqXCV/TBpMTZAb9v2A1ausuM0MT7iDK9RWw==
   dependencies:
-    "@softwareventures/array" "5.2.0"
+    "@softwareventures/array" "5.3.0"
     "@softwareventures/nullable" "2.0.0"
     execa "5.1.1"
     find-up "5.0.0"
