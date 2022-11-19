@@ -526,12 +526,13 @@
   dependencies:
     tslib "2.3.1"
 
-"@softwareventures/semantic-release-config@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/semantic-release-config/-/semantic-release-config-2.0.0.tgz#7eafffd91a232314994223dba32cd5b099b141b4"
-  integrity sha512-KD57OY1zCIzGExlqEQG4hzAiWAOtF/H74JgML8UoJRWaRFRVHafHDTTdcU3IIOpaItrysWtfH1zCnPtuuB6ZSg==
+"@softwareventures/semantic-release-config@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@softwareventures/semantic-release-config/-/semantic-release-config-2.0.3.tgz#0b8d80705c9f049e1a4afee4730277cbe6d62a1a"
+  integrity sha512-nSDJ8rvkGsLFx4QouaAYTa8zggeunAyXII9Hl3roPYuknkJE3erdXomc1cKENgWoa/mUkgaoDYhZY5cbe7dnDw==
   dependencies:
-    tslib "2.3.0"
+    conventional-changelog-conventionalcommits "^4.6.3 || ^5.0.0"
+    tslib "2.4.0"
 
 "@softwareventures/tsconfig@6.0.0":
   version "6.0.0"
@@ -1473,6 +1474,15 @@ conventional-changelog-angular@^5.0.0:
   integrity sha512-i/gipMxs7s8L/QeuavPF2hLnJgH6pEZAttySB6aiQLWcX3puWDL3ACVmvBhJGxnAy52Qc15ua26BufY6KpmrVA==
   dependencies:
     compare-func "^2.0.0"
+    q "^1.5.1"
+
+"conventional-changelog-conventionalcommits@^4.6.3 || ^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-5.0.0.tgz#41bdce54eb65a848a4a3ffdca93e92fa22b64a86"
+  integrity sha512-lCDbA+ZqVFQGUj7h9QBKoIpLhl8iihkO0nCTyRNzuXtcd7ubODpYB04IFy31JloiJgG0Uovu8ot8oxRzn7Nwtw==
+  dependencies:
+    compare-func "^2.0.0"
+    lodash "^4.17.15"
     q "^1.5.1"
 
 conventional-changelog-writer@^4.0.0:
