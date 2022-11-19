@@ -48,8 +48,7 @@ const config: Linter.Config = {
                                     'Do not use `Object`, it means "any non-nullish value".',
                                     '- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
                                     '- If you want a type meaning "any value", you probably want `unknown` instead.'
-                                ].join("\n"),
-                                fixWith: "Record<string, unknown>"
+                                ].join("\n")
                             },
                             "{}": {
                                 message: [
@@ -57,8 +56,7 @@ const config: Linter.Config = {
                                     '- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
                                     '- If you want a type meaning "any value", you probably want `unknown` instead.',
                                     '- If you want a type meaning "empty object", you probably want `Record<string, never>` instead.'
-                                ].join("\n"),
-                                fixWith: "Record<string, never>"
+                                ].join("\n")
                             },
                             "Function": {
                                 message: [
