@@ -45,7 +45,7 @@
     "@types/eslint": "8.4.10",
     "ava": "4.1.0",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "8.29.0",
+    "eslint": "8.30.0",
     "husky": "7.0.4",
     "prettier": "2.8.1",
     "semantic-release": "17.4.7",
