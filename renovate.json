@@ -1,4 +1,4 @@
 {
   "extends": ["@softwareventures:lib"],
-  "baseBranches": ["main", "master", "alpha", "beta", "next", "next-major", "5.x", "6.x"]
+  "baseBranches": ["main", "master", "alpha", "beta", "next", "next-major"]
 }
