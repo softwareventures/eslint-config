@@ -26,7 +26,6 @@ const config: Linter.Config = {
                 "array-callback-return": "off",
                 "consistent-return": "off",
                 "dot-notation": "off",
-                "no-duplicate-imports": "off",
                 "no-invalid-this": "off",
                 "no-unsafe-optional-chaining": "off",
                 "no-unused-expressions": "off",
@@ -159,7 +158,6 @@ const config: Linter.Config = {
                     "error",
                     {ignoreVoidOperator: true}
                 ],
-                "@typescript-eslint/no-duplicate-imports": "error",
                 "@typescript-eslint/no-empty-function": "off",
                 "@typescript-eslint/no-explicit-any": "error",
                 "@typescript-eslint/no-extra-semi": "off",
@@ -307,6 +305,7 @@ const config: Linter.Config = {
         "guard-for-in": "error",
         "id-blacklist": "error",
         "id-match": "error",
+        "import/no-duplicates": "error",
         "import/no-extraneous-dependencies": [
             "error",
             {
@@ -329,7 +328,7 @@ const config: Linter.Config = {
         "no-alert": "error",
         "no-caller": "error",
         "no-constructor-return": "error",
-        "no-duplicate-imports": "error",
+        "no-duplicate-imports": "off",
         "no-empty": "off",
         "no-empty-function": "off",
         "no-eval": "error",
