@@ -163,7 +163,6 @@ const config: Linter.Config = {
                 "@typescript-eslint/no-extra-semi": "off",
                 "@typescript-eslint/no-extraneous-class": "error",
                 "@typescript-eslint/no-floating-promises": "error",
-                "@typescript-eslint/no-implicit-any-catch": "error",
                 "@typescript-eslint/no-invalid-void-type": "error",
                 "@typescript-eslint/no-loop-func": "error",
                 "@typescript-eslint/no-loss-of-precision": "error",
