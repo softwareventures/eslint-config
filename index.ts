@@ -48,7 +48,12 @@ const config: Linter.Config = {
                                     '- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
                                     '- If you want a type meaning "any value", you probably want `unknown` instead.',
                                     '- If you want a type meaning "any non-nullish value", you probably want `NonNullable<unknown> instead.'
-                                ].join("\n")
+                                ].join("\n"),
+                                suggest: [
+                                    "Record<string, unknown>",
+                                    "unknown",
+                                    "NonNullable<unknown>"
+                                ]
                             },
                             "{}": false,
                             "Function": {
