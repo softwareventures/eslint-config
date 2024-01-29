@@ -46,7 +46,8 @@ const config: Linter.Config = {
                                 message: [
                                     'Do not use `Object`, it means "any non-nullish value".',
                                     '- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
-                                    '- If you want a type meaning "any value", you probably want `unknown` instead.'
+                                    '- If you want a type meaning "any value", you probably want `unknown` instead.',
+                                    '- If you want a type meaning "any non-nullish value", you probably want `NonNullable<unknown> instead.'
                                 ].join("\n")
                             },
                             "{}": false,
