@@ -271,7 +271,7 @@ const config: Linter.Config = {
         },
         {
             files: [
-                "test/**/*.{,c,m}ts{,x}",
+                "*(_)test?(s)*(_)/**/*.{,c,m}ts{,x}",
                 "test.{,c,m}ts{,x}",
                 "*.test.{,c,m}ts{,x}",
                 "*.test-d.{,c,m}ts{,x}"
@@ -282,7 +282,7 @@ const config: Linter.Config = {
         },
         {
             files: [
-                "test/**/*.{,c,m}{js,ts}{,x}",
+                "*(_)test?(s)*(_)/**/*.{,c,m}{js,ts}{,x}",
                 "test.{,c,m}{js,ts}{,x}",
                 "*.test.{,c,m}{js,ts}{,x}",
                 "*.config.{,c,m}{js,ts}{,x}"
@@ -308,7 +308,7 @@ const config: Linter.Config = {
             "error",
             {
                 devDependencies: [
-                    "**/test/**/*.{,c,m}{js,ts}{,x}",
+                    "**/*(_)test?(s)*(_)/**/*.{,c,m}{js,ts}{,x}",
                     "**/*.config.{,c,m}{js,ts}{,x}",
                     "**/*.test.{,c,m}{js,ts}{,x}",
                     "**/*.test-d.{,c,m}ts{,x}",
@@ -349,7 +349,7 @@ const config: Linter.Config = {
             "error",
             {
                 patterns: [
-                    "**/test/**/*",
+                    "**/*(_)test?(s)*(_)/**/*",
                     "**/*.config",
                     "**/*.config.*",
                     "**/*.test",
