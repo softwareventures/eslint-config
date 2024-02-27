@@ -42,7 +42,7 @@
     "@softwareventures/prettier-config": "4.0.0",
     "@softwareventures/semantic-release-config": "4.0.0",
     "@softwareventures/tsconfig": "8.0.0-alpha.2",
-    "@types/eslint": "8.56.3",
+    "@types/eslint": "8.56.4",
     "@typescript-eslint/eslint-plugin": "7.1.0",
     "@typescript-eslint/parser": "7.1.0",
     "ava": "6.1.1",
