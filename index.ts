@@ -58,7 +58,7 @@ const config: Linter.Config = {
                                     "It also accepts things like class declarations, which may throw at runtime as they may not be called with `new`.",
                                     "If you are expecting a function to accept certain arguments, you should explicitly define the function shape."
                                 ].join("\n"),
-                                suggest: ["() => void"]
+                                fixWith: "() => void"
                             }
                         },
                         extendDefaults: true
