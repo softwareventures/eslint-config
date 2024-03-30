@@ -697,10 +697,10 @@
   dependencies:
     tslib "2.6.2"
 
-"@softwareventures/tsconfig@8.0.0-alpha.2":
-  version "8.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-8.0.0-alpha.2.tgz#97665a475828aecd977619d327c5bab31e36af13"
-  integrity sha512-AC44mjBCJ+nvyHcajhXG6kmWx8xeY8BfdV3Nw2BwEDevh+2/pgLj0ePF+D8xuUICh8+SwR2+0b/vx0nfD5Pfuw==
+"@softwareventures/tsconfig@8.0.0-alpha.3":
+  version "8.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-8.0.0-alpha.3.tgz#5c125d81d29262f1e8931919efa0d72d9ad3cc1e"
+  integrity sha512-/WPAPK77SoT7levR5ZOv8a/vUDKEQ1BqYONuDl+eFinXGsar8gwgfURMIEnkoIlMYxV4erlFGvgXc4aOgn4lug==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.10"
