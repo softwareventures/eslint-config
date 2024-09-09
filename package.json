@@ -14,9 +14,9 @@
   "license": "ISC",
   "scripts": {
     "commit": "cz",
-    "fix": "tsc --noEmit && eslint . --fix && prettier --write .",
+    "fix": "tsc && eslint . --fix && prettier --write .",
     "postinstall": "husky",
-    "lint": "tsc --noEmit && eslint . && prettier --check .",
+    "lint": "tsc && eslint . && prettier --check .",
     "prepack": "tsc",
     "test": "ava"
   },
