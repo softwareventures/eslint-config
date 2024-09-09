@@ -6,6 +6,7 @@
 /.github
 /.prettierignore
 /renovate.json
+/.snyk
 *.ts
 !*.d.ts
 
