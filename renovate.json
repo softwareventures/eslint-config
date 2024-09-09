@@ -1,4 +1,4 @@
 {
-  "extends": ["@softwareventures:lib"],
+  "extends": ["github>softwareventures/renovate-config:lib"],
   "baseBranches": ["main", "master", "alpha", "beta", "next", "next-major"]
 }
