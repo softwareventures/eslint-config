@@ -21,7 +21,7 @@
     "test": "ava"
   },
   "engines": {
-    "node": "^18 || >=20"
+    "node": "^18 || ^20 || >=22"
   },
   "dependencies": {
     "tslib": "^2.3.1"
