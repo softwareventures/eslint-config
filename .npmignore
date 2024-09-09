@@ -4,6 +4,7 @@
 /tsconfig.test.json
 /.eslintignore
 /.github
+/.prettierignore
 /renovate.json
 *.ts
 !*.d.ts
