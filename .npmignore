@@ -2,6 +2,7 @@
 /yarn.lock
 /tsconfig.json
 /tsconfig.test.json
+/.eslintignore
 /.github
 /renovate.json
 *.ts
