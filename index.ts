@@ -127,6 +127,7 @@ const config: Linter.Config = {
                     {ignoreVoidOperator: true}
                 ],
                 "@typescript-eslint/no-empty-function": "off",
+                "@typescript-eslint/no-empty-object-type": "off",
                 "@typescript-eslint/no-explicit-any": "error",
                 "@typescript-eslint/no-extra-semi": "off",
                 "@typescript-eslint/no-extraneous-class": "error",
