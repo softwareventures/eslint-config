@@ -48,7 +48,12 @@ const config: Linter.Config = {
                                     '- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
                                     '- If you want a type meaning "any value", you probably want `unknown` instead.',
                                     '- If you want a type meaning "any non-nullish value", you probably want `NonNullable<unknown> instead.'
-                                ].join("\n")
+                                ].join("\n"),
+                                suggest: [
+                                    "Record<string, unknown>",
+                                    "unknown",
+                                    "NonNullable<unknown>"
+                                ]
                             },
                             "{}": false,
                             "Function": {
@@ -57,7 +62,8 @@ const config: Linter.Config = {
                                     "It provides no type safety when calling the function, which can be a common source of bugs.",
                                     "It also accepts things like class declarations, which may throw at runtime as they may not be called with `new`.",
                                     "If you are expecting a function to accept certain arguments, you should explicitly define the function shape."
-                                ].join("\n")
+                                ].join("\n"),
+                                suggest: ["() => void"]
                             }
                         },
                         extendDefaults: true
