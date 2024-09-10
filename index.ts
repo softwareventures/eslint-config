@@ -38,38 +38,8 @@ const config: Linter.Config = {
                     }
                 ],
                 "@typescript-eslint/ban-tslint-comment": "error",
-                "@typescript-eslint/ban-types": [
-                    "error",
-                    {
-                        types: {
-                            "Object": {
-                                message: [
-                                    'Do not use `Object`, it means "any non-nullish value".',
-                                    '- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
-                                    '- If you want a type meaning "any value", you probably want `unknown` instead.',
-                                    '- If you want a type meaning "any non-nullish value", you probably want `NonNullable<unknown> instead.'
-                                ].join("\n"),
-                                suggest: [
-                                    "Record<string, unknown>",
-                                    "unknown",
-                                    "NonNullable<unknown>"
-                                ]
-                            },
-                            "{}": false,
-                            "Function": {
-                                message: [
-                                    "The `Function` type accepts any function-like value.",
-                                    "It provides no type safety when calling the function, which can be a common source of bugs.",
-                                    "It also accepts things like class declarations, which may throw at runtime as they may not be called with `new`.",
-                                    "If you are expecting a function to accept certain arguments, you should explicitly define the function shape."
-                                ].join("\n"),
-                                suggest: ["() => void"]
-                            }
-                        },
-                        extendDefaults: true
-                    }
-                ],
                 "@typescript-eslint/ban-ts-comment": "error",
+                "@typescript-eslint/ban-types": "off",
                 "@typescript-eslint/class-literal-property-style": "error",
                 "@typescript-eslint/consistent-type-assertions": [
                     "error",
@@ -172,11 +142,13 @@ const config: Linter.Config = {
                 "@typescript-eslint/no-unnecessary-type-assertion": "error",
                 "@typescript-eslint/no-unnecessary-type-constraint": "error",
                 "@typescript-eslint/no-unsafe-argument": "error",
+                "@typescript-eslint/no-unsafe-function-type": "error",
                 "@typescript-eslint/no-unsafe-return": "error",
                 "@typescript-eslint/no-unused-expressions": ["error", {enforceForJSX: true}],
                 "@typescript-eslint/no-unused-vars": "off",
                 "@typescript-eslint/no-useless-constructor": "error",
                 "@typescript-eslint/no-use-before-define": "off",
+                "@typescript-eslint/no-wrapper-object-types": "error",
                 "@typescript-eslint/non-nullable-type-assertion-style": "error",
                 "@typescript-eslint/prefer-for-of": "off",
                 "@typescript-eslint/prefer-function-type": "error",
