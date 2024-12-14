@@ -135,6 +135,7 @@ const config: Linter.Config = {
                 "@typescript-eslint/no-invalid-void-type": ["error", {allowAsThisParameter: true}],
                 "@typescript-eslint/no-loop-func": "error",
                 "@typescript-eslint/no-loss-of-precision": "error",
+                "@typescript-eslint/no-require-imports": "off",
                 "@typescript-eslint/no-non-null-assertion": "error",
                 "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
                 "@typescript-eslint/no-unnecessary-qualifier": "error",
