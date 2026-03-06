@@ -20,6 +20,7 @@
     "prepack": "tsc",
     "test": "ava"
   },
+  "sideEffects": false,
   "engines": {
     "node": "^18 || ^20 || >=22"
   },
