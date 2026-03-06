@@ -21,6 +21,9 @@
     "test": "ava"
   },
   "sideEffects": false,
+  "exports": {
+    ".": "./index.js"
+  },
   "engines": {
     "node": "^18 || ^20 || >=22"
   },
