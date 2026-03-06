@@ -1,15 +1,15 @@
 import {defineConfig} from "eslint/config";
 import js from "@eslint/js";
 import prettier from "eslint-config-prettier";
-import * as typescriptPlugin from "@typescript-eslint/eslint-plugin";
-import * as importPlugin from "eslint-plugin-import";
-import * as jsdocPlugin from "eslint-plugin-jsdoc";
+import typescriptPlugin from "@typescript-eslint/eslint-plugin";
+import importPlugin from "eslint-plugin-import";
+import jsdocPlugin from "eslint-plugin-jsdoc";
 // @ts-expect-error No type definitions available
-import * as preferArrowPlugin from "eslint-plugin-prefer-arrow";
+import preferArrowPlugin from "eslint-plugin-prefer-arrow";
 import sonarPlugin from "eslint-plugin-sonarjs";
 import {notNull} from "@softwareventures/nullable";
 
-export = defineConfig(
+export default defineConfig(
     js.configs.recommended,
     prettier,
     // @ts-expect-error Incorrect type definitions in typescript-eslint

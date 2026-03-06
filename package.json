@@ -12,6 +12,7 @@
   "bugs": "https://github.com/softwareventures/eslint-config",
   "repository": "github:softwareventures/eslint-config",
   "license": "ISC",
+  "type": "module",
   "scripts": {
     "commit": "cz",
     "fix": "tsc && eslint --fix . && prettier --write .",
