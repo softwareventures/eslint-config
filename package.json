@@ -19,7 +19,7 @@
     "postinstall": "husky",
     "lint": "tsc && eslint . && prettier --check .",
     "prepack": "tsc",
-    "test": "ava"
+    "test": "echo No tests yet"
   },
   "sideEffects": false,
   "exports": {
@@ -52,10 +52,8 @@
     "@softwareventures/precise-commits": "4.0.23",
     "@softwareventures/prettier-config": "4.0.0",
     "@softwareventures/tsconfig": "8.1.1",
-    "@types/node": "18.19.130",
     "@typescript-eslint/eslint-plugin": "8.56.1",
     "@typescript-eslint/parser": "8.56.1",
-    "ava": "6.4.1",
     "commitizen": "4.3.1",
     "eslint": "9.39.3",
     "eslint-config-prettier": "10.1.8",
@@ -66,7 +64,6 @@
     "husky": "9.1.7",
     "inquirer": "9.3.8",
     "prettier": "3.8.1",
-    "ts-node": "10.9.2",
     "typescript": "5.9.3"
   },
   "eslintConfig": {
@@ -78,14 +75,6 @@
     "commitizen": {
       "path": "@commitlint/cz-commitlint"
     }
-  },
-  "ava": {
-    "extensions": [
-      "ts"
-    ],
-    "require": [
-      "ts-node/register"
-    ]
   },
   "release": {
     "extends": "@softwareventures/semantic-release-config"
